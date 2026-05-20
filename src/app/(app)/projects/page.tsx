@@ -91,6 +91,143 @@ function StatusBadge({ status }: { status: string }) {
   );
 }
 
+// ── Clickable status dropdown for cards ────────────────────────────────────────
+const STATUS_OPTIONS = [
+  "backlog", "in_progress", "review", "done", "archived",
+] as const;
+
+function StatusDropdown({
+  status,
+  onStatusChange,
+}: {
+  status: string;
+  onStatusChange: (s: string) => void;
+}) {
+  const [open, setOpen] = React.useState(false);
+  const [pos, setPos] = React.useState({ top: 0, left: 0 });
+  const triggerRef = React.useRef<HTMLButtonElement>(null);
+  const menuRef = React.useRef<HTMLDivElement>(null);
+  const s = STATUS_MAP[status] ?? STATUS_MAP.backlog;
+
+  React.useEffect(() => {
+    if (!open) return;
+    const handler = (e: MouseEvent) => {
+      if (
+        triggerRef.current && !triggerRef.current.contains(e.target as Node) &&
+        menuRef.current && !menuRef.current.contains(e.target as Node)
+      ) setOpen(false);
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [open]);
+
+  function handleClick(e: React.MouseEvent) {
+    e.stopPropagation();
+    if (!open && triggerRef.current) {
+      const rect = triggerRef.current.getBoundingClientRect();
+      setPos({ top: rect.bottom + 6, left: rect.left });
+    }
+    setOpen((p) => !p);
+  }
+
+  const menu = (
+    <div
+      ref={menuRef}
+      style={{
+        position: "fixed",
+        top: pos.top,
+        left: pos.left,
+        zIndex: 9999,
+        minWidth: 160,
+        background: "#FFFFFF",
+        border: "1px solid #E5EAEC",
+        borderRadius: 12,
+        boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
+        padding: "4px 0",
+        fontFamily: manrope,
+      }}
+      onClick={(e) => e.stopPropagation()}
+    >
+      <p style={{ fontSize: 10, fontWeight: 700, color: "#B0BFC8", textTransform: "uppercase", letterSpacing: "0.08em", padding: "6px 12px 4px", margin: 0 }}>
+        Change status
+      </p>
+      {STATUS_OPTIONS.map((key) => {
+        const opt = STATUS_MAP[key];
+        const isActive = key === status;
+        return (
+          <button
+            key={key}
+            onClick={(e) => {
+              e.stopPropagation();
+              if (!isActive) onStatusChange(key);
+              setOpen(false);
+            }}
+            style={{
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              padding: "7px 12px",
+              background: isActive ? opt.bg : "transparent",
+              border: "none",
+              cursor: isActive ? "default" : "pointer",
+              fontFamily: manrope,
+              fontSize: 13,
+              fontWeight: isActive ? 700 : 500,
+              color: "#0F2A37",
+              textAlign: "left",
+              transition: "background 0.1s",
+            }}
+            onMouseEnter={(e) => { if (!isActive) (e.currentTarget as HTMLButtonElement).style.background = "#F8FAFB" }}
+            onMouseLeave={(e) => { if (!isActive) (e.currentTarget as HTMLButtonElement).style.background = "transparent" }}
+          >
+            <span style={{ width: 8, height: 8, borderRadius: "50%", background: opt.dot, flexShrink: 0 }} />
+            {opt.label}
+            {isActive && (
+              <svg style={{ marginLeft: "auto", color: opt.dot }} width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            )}
+          </button>
+        );
+      })}
+    </div>
+  );
+
+  return (
+    <>
+      <button
+        ref={triggerRef}
+        onClick={handleClick}
+        title="Change status"
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: 5,
+          background: s.bg,
+          borderRadius: 999,
+          paddingBlock: 4,
+          paddingInline: 10,
+          fontFamily: manrope,
+          fontSize: 11,
+          fontWeight: 600,
+          color: "#374151",
+          whiteSpace: "nowrap",
+          border: "none",
+          cursor: "pointer",
+          transition: "filter 0.12s",
+        }}
+        onMouseEnter={(e) => (e.currentTarget.style.filter = "brightness(0.94)")}
+        onMouseLeave={(e) => (e.currentTarget.style.filter = "none")}
+      >
+        <span style={{ width: 6, height: 6, borderRadius: "50%", background: s.dot, flexShrink: 0 }} />
+        {s.label}
+      </button>
+      {open && typeof document !== "undefined" && createPortal(menu, document.body)}
+    </>
+  );
+}
+
 // ── Department badge ───────────────────────────────────────────────────────────
 function getDeptColor(dept: string | null) {
   if (!dept) return { dot: "#94A3B8", bg: "#F1F5F9", text: "#64748B" };
@@ -531,10 +668,12 @@ function ProjectCard({
   project,
   onEdit,
   onDelete,
+  onStatusChange,
 }: {
   project: ProjectRow;
   onEdit: () => void;
   onDelete: () => void;
+  onStatusChange: (newStatus: string) => void;
 }) {
   const router = useRouter();
   const assignees = (
@@ -565,6 +704,7 @@ function ProjectCard({
         flexDirection: "column",
         gap: 14,
         transition: "box-shadow 0.15s, border-color 0.15s",
+        position: "relative",
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.boxShadow = "0 4px 20px rgba(0,0,0,0.08)";
@@ -575,10 +715,18 @@ function ProjectCard({
         e.currentTarget.style.borderColor = "#E8EDEF";
       }}
     >
-      {/* Top row: field + status + weekly update chip + 3-dot */}
-      <div style={{ display: "flex", alignItems: "center", gap: 6, minWidth: 0 }}>
+      {/* 3-dot menu — absolute top-right so it never competes with badges */}
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{ position: "absolute", top: 14, right: 14, zIndex: 1 }}
+      >
+        <RowMenu project={project} onEdit={onEdit} onDelete={onDelete} />
+      </div>
+
+      {/* Top row: dept + status + weekly update chip (no 3-dot here anymore) */}
+      <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap", paddingRight: 28 }}>
         <DeptBadge dept={project.department} />
-        <StatusBadge status={project.status} />
+        <StatusDropdown status={project.status} onStatusChange={onStatusChange} />
         {(project as any).needs_weekly_update && (
           <span style={{
             display: "inline-flex",
@@ -594,7 +742,6 @@ function ProjectCard({
             color: "#B45309",
             whiteSpace: "nowrap",
             fontFamily: manrope,
-            flexShrink: 0,
           }}>
             <svg width="10" height="10" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
               <path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM8 5v3.5M8 10.5v.5" stroke="#D97706" strokeWidth="1.6" strokeLinecap="round"/>
@@ -602,10 +749,6 @@ function ProjectCard({
             Need weekly update
           </span>
         )}
-        <div style={{ flex: 1, minWidth: 0 }} />
-        <div onClick={(e) => e.stopPropagation()} style={{ flexShrink: 0 }}>
-          <RowMenu project={project} onEdit={onEdit} onDelete={onDelete} />
-        </div>
       </div>
 
       {/* Title + owner */}
@@ -2481,6 +2624,7 @@ export default function ProjectsPage() {
               project={p}
               onEdit={() => setEditProject(p)}
               onDelete={() => handleDelete(p)}
+              onStatusChange={(newStatus) => handleMoveStatus(p, newStatus)}
             />
           ))}
         </div>
