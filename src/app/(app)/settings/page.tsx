@@ -20,6 +20,7 @@ import {
   RiDeleteBinLine,
   RiPencilLine,
   RiUserLine,
+  RiLockPasswordLine,
 } from "@remixicon/react"
 
 // ─── Types ─────────────────────────────────────────────────────────────────────
@@ -707,6 +708,114 @@ function DeleteUserModal({
   )
 }
 
+// ─── Modal: Reset Password ──────────────────────────────────────────────────────
+
+function ResetPasswordModal({
+  user,
+  onClose,
+  workspaceId,
+  onReset,
+}: {
+  user: UserRow | null
+  onClose: () => void
+  workspaceId: string
+  onReset: () => void
+}) {
+  const { showToast } = useToast()
+  const [saving, setSaving] = React.useState(false)
+
+  if (!user) return null
+
+  async function handleReset() {
+    if (!user) return
+    setSaving(true)
+    try {
+      const res = await fetch(`/api/settings/users/${user.user_id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ workspace_id: workspaceId, action: "reset_password" }),
+      })
+      const data = await res.json()
+      if (!res.ok) {
+        showToast({ title: "Error", subtitle: data.error ?? "Could not reset password." })
+      } else {
+        showToast({ title: "Password reset", subtitle: `Password for ${user.email ?? user.display_name} has been reset to the default.` })
+        onReset()
+        onClose()
+      }
+    } catch {
+      showToast({ title: "Error", subtitle: "An unexpected error occurred." })
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  const displayName = user.email ?? user.display_name ?? user.user_id
+
+  return (
+    <div
+      style={{ position: "fixed", inset: 0, zIndex: 50, display: "flex", alignItems: "center", justifyContent: "center", padding: 16, background: "rgba(0,0,0,0.30)", backdropFilter: "blur(4px)" }}
+      onClick={(e) => { if (e.target === e.currentTarget) onClose() }}
+    >
+      <div
+        style={{ width: "100%", maxWidth: 420, borderRadius: 20, background: "var(--color-background, #fff)", boxShadow: "0 25px 60px rgba(0,0,0,0.18)", overflow: "hidden", fontFamily: '"Manrope", system-ui, sans-serif' }}
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div style={{ padding: "22px 24px 16px", borderBottom: "1px solid var(--color-border, #E8ECEF)" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: 34, height: 34, borderRadius: 10, background: "#FEF3C7" }}>
+              <RiLockPasswordLine size={16} style={{ color: "#D97706" }} />
+            </div>
+            <div>
+              <p style={{ fontWeight: 700, fontSize: 15, color: "var(--color-foreground, #0F1828)", margin: 0 }}>Reset Password</p>
+              <p style={{ fontSize: 12, color: "var(--color-foreground-muted, #7A8A93)", margin: 0 }}>Revert to the default password</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Body */}
+        <div style={{ padding: "20px 24px" }}>
+          <p style={{ fontSize: 14, color: "var(--color-foreground, #0F1828)", margin: 0 }}>
+            Reset password for{" "}
+            <span style={{ fontWeight: 700 }}>{displayName}</span>?
+          </p>
+          <p style={{ fontSize: 12, color: "var(--color-foreground-muted, #7A8A93)", margin: "6px 0 0" }}>
+            Their password will be set to the default:{" "}
+            <code style={{ background: "#F1F5F9", borderRadius: 4, padding: "2px 6px", fontSize: 12, fontFamily: "monospace", color: "#0F1828" }}>
+              password!@#
+            </code>
+          </p>
+          <p style={{ fontSize: 11, color: "#D97706", margin: "10px 0 0", display: "flex", alignItems: "flex-start", gap: 5 }}>
+            <RiAlertLine size={13} style={{ flexShrink: 0, marginTop: 1 }} />
+            Make sure the user changes their password after logging in.
+          </p>
+        </div>
+
+        {/* Footer */}
+        <div style={{ padding: "4px 24px 20px", display: "flex", justifyContent: "flex-end", gap: 8 }}>
+          <button
+            type="button"
+            onClick={onClose}
+            style={{ height: 36, paddingInline: 16, borderRadius: 999, border: "1.5px solid var(--color-border, #E8ECEF)", background: "transparent", fontSize: 13, fontWeight: 600, color: "var(--color-foreground-muted, #7A8A93)", cursor: "pointer", fontFamily: '"Manrope", system-ui, sans-serif' }}
+          >
+            Cancel
+          </button>
+          <button
+            type="button"
+            disabled={saving}
+            onClick={handleReset}
+            style={{ height: 36, paddingInline: 20, borderRadius: 999, background: "#D97706", border: "none", fontSize: 13, fontWeight: 700, color: "#fff", cursor: saving ? "not-allowed" : "pointer", opacity: saving ? 0.7 : 1, display: "inline-flex", alignItems: "center", gap: 6, fontFamily: '"Manrope", system-ui, sans-serif' }}
+          >
+            {saving && <RiLoaderLine size={14} style={{ animation: "spin 1s linear infinite" }} />}
+            {saving ? "Resetting…" : "Reset Password"}
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // ─── Main Page ──────────────────────────────────────────────────────────────────
 
 export default function SettingsPage() {
@@ -740,6 +849,7 @@ export default function SettingsPage() {
   const [addOpen, setAddOpen] = React.useState(false)
   const [editUser, setEditUser] = React.useState<UserRow | null>(null)
   const [deleteUser, setDeleteUser] = React.useState<UserRow | null>(null)
+  const [resetPasswordUser, setResetPasswordUser] = React.useState<UserRow | null>(null)
 
   // ── Load email settings ──
   React.useEffect(() => {
@@ -1222,6 +1332,28 @@ export default function SettingsPage() {
                                 Edit role
                               </button>
                               <button
+                                onClick={() => setResetPasswordUser(user)}
+                                style={{
+                                  width: 30,
+                                  height: 30,
+                                  borderRadius: 999,
+                                  border: "1.5px solid var(--color-border, #E8ECEF)",
+                                  background: "transparent",
+                                  cursor: "pointer",
+                                  display: "inline-flex",
+                                  alignItems: "center",
+                                  justifyContent: "center",
+                                  color: "var(--color-foreground-muted, #7A8A93)",
+                                  transition: "all 0.12s",
+                                  flexShrink: 0,
+                                }}
+                                onMouseEnter={(e) => { (e.currentTarget as HTMLButtonElement).style.borderColor = "#D97706"; (e.currentTarget as HTMLButtonElement).style.color = "#D97706"; (e.currentTarget as HTMLButtonElement).style.background = "#FEF3C7" }}
+                                onMouseLeave={(e) => { (e.currentTarget as HTMLButtonElement).style.borderColor = "var(--color-border, #E8ECEF)"; (e.currentTarget as HTMLButtonElement).style.color = "var(--color-foreground-muted, #7A8A93)"; (e.currentTarget as HTMLButtonElement).style.background = "transparent" }}
+                                title="Reset password"
+                              >
+                                <RiLockPasswordLine size={13} />
+                              </button>
+                              <button
                                 onClick={() => setDeleteUser(user)}
                                 style={{
                                   width: 30,
@@ -1276,6 +1408,12 @@ export default function SettingsPage() {
             onClose={() => setDeleteUser(null)}
             workspaceId={workspaceId}
             onDeleted={fetchUsers}
+          />
+          <ResetPasswordModal
+            user={resetPasswordUser}
+            onClose={() => setResetPasswordUser(null)}
+            workspaceId={workspaceId}
+            onReset={fetchUsers}
           />
         </>
       )}
