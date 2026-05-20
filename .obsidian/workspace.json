@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "04d0dd21efc2a87d",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb9927288d9aecdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f804ef57c7f517d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DATABASE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATABASE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "292d80d27d85966b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a74fc3636561106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1726cdedef3fb618",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c6aa5ee81b4ae7ba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7c1e52a76565d5a4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6f78d70f45a7bb79",
+    "type": "split",
+    "children": [
+      {
+        "id": "bca0d4d2e1d9abcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f754db17aabd399",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DATABASE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DATABASE"
+            }
+          },
+          {
+            "id": "55a4007e5aa3ea9d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DATABASE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DATABASE"
+            }
+          },
+          {
+            "id": "03a56cb7c8190dd4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fc2509066058cb0c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "e5ea64f411c956e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DATABASE.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DATABASE"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "1726cdedef3fb618",
+  "lastOpenFiles": [
+    "src/components/ui/select.tsx",
+    "src/components/ui/date-picker.tsx",
+    "DESIGN.md",
+    "src/app/api/scrape-profile/route.ts",
+    "src/app/api/scrape-profile",
+    "src/app/api",
+    "twibbonize_profile_scraper.py",
+    "src/app/(app)/contacts/[id]/loading.tsx",
+    "src/app/(app)/contacts/loading.tsx",
+    "middleware.ts",
+    "src/components/app-shell/error-boundary.tsx",
+    "src/app/(app)/contacts/[id]/edit/page.tsx",
+    "node_modules/tar/README.md",
+    "node_modules/tar/LICENSE.md",
+    "node_modules/minipass/README.md",
+    "node_modules/minipass/LICENSE.md",
+    "node_modules/formdata-polyfill/README.md",
+    "node_modules/supabase/README.md",
+    "node_modules/https-proxy-agent/README.md",
+    "node_modules/web-streams-polyfill/README.md",
+    "node_modules/node-fetch/LICENSE.md",
+    "node_modules/node-fetch/README.md",
+    "node_modules/bin-links/README.md",
+    "node_modules/data-uri-to-buffer/README.md",
+    "node_modules/proc-log/README.md",
+    "node_modules/read-cmd-shim/README.md",
+    "node_modules/node-domexception/README.md",
+    "node_modules/agent-base/README.md",
+    "node_modules/write-file-atomic/README.md",
+    "node_modules/write-file-atomic/LICENSE.md",
+    "node_modules/cmd-shim/README.md",
+    "node_modules/npm-normalize-package-bin/README.md",
+    "node_modules/fetch-blob/README.md",
+    "node_modules/tar/node_modules/yallist/README.md",
+    "node_modules/tar/node_modules/yallist/LICENSE.md",
+    "node_modules/@isaacs/fs-minipass/README.md",
+    "node_modules/@supabase/phoenix/priv/static/phoenix.png",
+    "node_modules/@supabase/phoenix/priv/static/phoenix-orange.png"
+  ]
+}

@@ -1,0 +1,1492 @@
+2026-05-13 16:55:26  INFO     ============================================================
+2026-05-13 16:55:26  INFO     Daily email check started — 2026-05-13 16:55 WIB
+2026-05-13 16:55:26  INFO     ============================================================
+2026-05-13 16:55:26  INFO     Connecting to imap.gmail.com:993 as andar@twibbonize.com
+2026-05-13 16:55:28  ERROR    IMAP error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-05-13 16:55:28  INFO     ✓ No new emails to process.
+2026-05-13 16:55:28  INFO     ------------------------------------------------------------
+2026-05-13 17:00:52  INFO     ============================================================
+2026-05-13 17:00:52  INFO     Daily email check started — 2026-05-13 17:00 WIB
+2026-05-13 17:00:52  INFO     ============================================================
+2026-05-13 17:00:52  INFO     Connecting to imap.gmail.com:993 as andar@twibbonize.com
+2026-05-13 17:00:57  INFO     Found 40 message(s) since 12-May-2026
+2026-05-13 17:01:10  INFO     
+📬 Emails received in the last 24h: 19
+2026-05-13 17:01:10  INFO        Unique senders : 16
+2026-05-13 17:01:12  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null "HTTP/2 200 OK"
+2026-05-13 17:01:12  INFO        CRM contacts with email: 4
+2026-05-13 17:01:12  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:01:12  INFO     ✅  MATCHED — emails from CRM contacts (0)
+2026-05-13 17:01:12  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:01:12  INFO       (none)
+2026-05-13 17:01:12  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:01:12  INFO     ❓  UNKNOWN — emails NOT in CRM contacts (19)
+2026-05-13 17:01:12  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:01:12  INFO       [2026-05-13 16:59 WIB]  Google <no-reply@accounts.google.com>
+    Subject : Security alert
+2026-05-13 17:01:12  INFO       [2026-05-13 16:58 WIB]  Google <no-reply@accounts.google.com>
+    Subject : 2-Step Verification turned on
+2026-05-13 17:01:12  INFO       [2026-05-13 14:36 WIB]  Brevo <campaigns@m.brevo.com>
+    Subject : Marketing that never clocks out
+2026-05-13 17:01:12  INFO       [2026-05-13 14:00 WIB]  Twibbonize  <notifications@tasks.clickup.com>
+    Subject : [Overdue] Discuss w/Yoga, Zikri & Mulqan about Insight Report
+2026-05-13 17:01:12  INFO       [2026-05-13 11:35 WIB]  Jack <info@business.itsjack.com>
+    Subject : Prepaid card: Failed payment to SendinBlue - Paris - FRA
+2026-05-13 17:01:12  INFO       [2026-05-13 11:35 WIB]  Jack <info@business.itsjack.com>
+    Subject : Prepaid card: Failed payment to SendinBlue - Paris - FRA
+2026-05-13 17:01:12  INFO       [2026-05-13 11:35 WIB]  "Brevo" <contact@t.brevo.com>
+    Subject : Alert: Your Payment Was Declined
+2026-05-13 17:01:12  INFO       [2026-05-13 09:15 WIB]  Angga Fauzan <angga@myskill.id>
+    Subject : Accepted: Twibbonize X MySkill @ Mon May 18, 2026 1:30pm - 3pm
+ (GMT+7) (andar@twibbonize.com)
+2026-05-13 17:01:12  INFO       [2026-05-13 08:15 WIB]  Ogi From GajiHub <hello@gajihub.com>
+    Subject : Pemberitahuan Pengajuan Izin Sakit
+2026-05-13 17:01:12  INFO       [2026-05-13 07:00 WIB]  ClickUp Notifications <noreply@clickup.com>
+    Subject : Daily Summary | Twibbonize
+2026-05-13 17:01:12  INFO       [2026-05-13 03:48 WIB]  Claude Team <no-reply@email.claude.com>
+    Subject : Three features retiring soon
+2026-05-13 17:01:12  INFO       [2026-05-13 00:40 WIB]  "ClickUp Community Team" <team@mail.clickup.com>
+    Subject : Big news, you're a ClickUp Power User
+2026-05-13 17:01:12  INFO       [2026-05-12 23:21 WIB]  Shopify <email@email.shopify.com>
+    Subject : Cara kerja Shopify Catalog dan saluran AI untuk toko Anda
+2026-05-13 17:01:12  INFO       [2026-05-12 23:13 WIB]  Google Publisher Policy <publisher-policy-noreply@google.com>
+    Subject : Your AdSense Publisher Policy Violation Report for
+ pub-3785389902934745 on May 12, 2026
+2026-05-13 17:01:12  INFO       [2026-05-12 22:50 WIB]  Apollo <hello@mail.apollo.io>
+    Subject : 4 ways top reps are running outbound right now
+2026-05-13 17:01:12  INFO       [2026-05-12 22:48 WIB]  Muhammed Suhail <muhammedsuhail1996@gmail.com>
+    Subject : Re: AFK Copa America 2024 — ideas for your next fan campaign
+2026-05-13 17:01:12  INFO       [2026-05-12 21:16 WIB]  "ClickUp Team" <team@mail.clickup.com>
+    Subject : You're invited: The Great Uninstall
+2026-05-13 17:01:12  INFO       [2026-05-12 20:02 WIB]  L’Oreal Paris Beauty Magazine <lorealparis@news.lorealparisusamail.com>
+    Subject : Muhammad, Your May Beauty Guide is here 📚
+2026-05-13 17:01:12  INFO       [2026-05-12 19:03 WIB]  MyClaw Newsletter <MyClaw@aisecret.us>
+    Subject : 🦞 10x Is Dead
+2026-05-13 17:01:12  INFO     
+============================================================
+2026-05-13 17:01:12  INFO     Summary  |  Total: 19  ·  From CRM contacts: 0  ·  Unknown: 19
+2026-05-13 17:01:12  INFO     ============================================================
+
+2026-05-13 17:06:04  INFO     ============================================================
+2026-05-13 17:06:04  INFO     Daily email check started — 2026-05-13 17:06 WIB
+2026-05-13 17:06:04  INFO     ============================================================
+2026-05-13 17:06:04  INFO     Connecting to imap.gmail.com:993 as andar@twibbonize.com
+2026-05-13 17:06:06  INFO     Found 40 message(s) since 12-May-2026
+2026-05-13 17:06:28  INFO     
+📬 Emails received in the last 24h: 19
+2026-05-13 17:06:28  INFO        Unique senders : 16
+2026-05-13 17:06:31  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null "HTTP/2 200 OK"
+2026-05-13 17:06:31  INFO        CRM contacts with email: 4
+2026-05-13 17:06:31  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:06:31  INFO     ✅  MATCHED — emails from CRM contacts (0)
+2026-05-13 17:06:31  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:06:31  INFO       (none)
+2026-05-13 17:06:31  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:06:31  INFO     ❓  UNKNOWN — emails NOT in CRM contacts (19)
+2026-05-13 17:06:31  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:06:31  INFO       [2026-05-13 16:59 WIB]  Google <no-reply@accounts.google.com>
+    Subject : Security alert
+2026-05-13 17:06:31  INFO       [2026-05-13 16:58 WIB]  Google <no-reply@accounts.google.com>
+    Subject : 2-Step Verification turned on
+2026-05-13 17:06:31  INFO       [2026-05-13 14:36 WIB]  Brevo <campaigns@m.brevo.com>
+    Subject : Marketing that never clocks out
+2026-05-13 17:06:31  INFO       [2026-05-13 14:00 WIB]  Twibbonize  <notifications@tasks.clickup.com>
+    Subject : [Overdue] Discuss w/Yoga, Zikri & Mulqan about Insight Report
+2026-05-13 17:06:31  INFO       [2026-05-13 11:35 WIB]  Jack <info@business.itsjack.com>
+    Subject : Prepaid card: Failed payment to SendinBlue - Paris - FRA
+2026-05-13 17:06:31  INFO       [2026-05-13 11:35 WIB]  Jack <info@business.itsjack.com>
+    Subject : Prepaid card: Failed payment to SendinBlue - Paris - FRA
+2026-05-13 17:06:31  INFO       [2026-05-13 11:35 WIB]  "Brevo" <contact@t.brevo.com>
+    Subject : Alert: Your Payment Was Declined
+2026-05-13 17:06:31  INFO       [2026-05-13 09:15 WIB]  Angga Fauzan <angga@myskill.id>
+    Subject : Accepted: Twibbonize X MySkill @ Mon May 18, 2026 1:30pm - 3pm
+ (GMT+7) (andar@twibbonize.com)
+2026-05-13 17:06:31  INFO       [2026-05-13 08:15 WIB]  Ogi From GajiHub <hello@gajihub.com>
+    Subject : Pemberitahuan Pengajuan Izin Sakit
+2026-05-13 17:06:31  INFO       [2026-05-13 07:00 WIB]  ClickUp Notifications <noreply@clickup.com>
+    Subject : Daily Summary | Twibbonize
+2026-05-13 17:06:31  INFO       [2026-05-13 03:48 WIB]  Claude Team <no-reply@email.claude.com>
+    Subject : Three features retiring soon
+2026-05-13 17:06:31  INFO       [2026-05-13 00:40 WIB]  "ClickUp Community Team" <team@mail.clickup.com>
+    Subject : Big news, you're a ClickUp Power User
+2026-05-13 17:06:31  INFO       [2026-05-12 23:21 WIB]  Shopify <email@email.shopify.com>
+    Subject : Cara kerja Shopify Catalog dan saluran AI untuk toko Anda
+2026-05-13 17:06:31  INFO       [2026-05-12 23:13 WIB]  Google Publisher Policy <publisher-policy-noreply@google.com>
+    Subject : Your AdSense Publisher Policy Violation Report for
+ pub-3785389902934745 on May 12, 2026
+2026-05-13 17:06:31  INFO       [2026-05-12 22:50 WIB]  Apollo <hello@mail.apollo.io>
+    Subject : 4 ways top reps are running outbound right now
+2026-05-13 17:06:31  INFO       [2026-05-12 22:48 WIB]  Muhammed Suhail <muhammedsuhail1996@gmail.com>
+    Subject : Re: AFK Copa America 2024 — ideas for your next fan campaign
+2026-05-13 17:06:31  INFO       [2026-05-12 21:16 WIB]  "ClickUp Team" <team@mail.clickup.com>
+    Subject : You're invited: The Great Uninstall
+2026-05-13 17:06:31  INFO       [2026-05-12 20:02 WIB]  L’Oreal Paris Beauty Magazine <lorealparis@news.lorealparisusamail.com>
+    Subject : Muhammad, Your May Beauty Guide is here 📚
+2026-05-13 17:06:31  INFO       [2026-05-12 19:03 WIB]  MyClaw Newsletter <MyClaw@aisecret.us>
+    Subject : 🦞 10x Is Dead
+2026-05-13 17:06:31  INFO     
+============================================================
+2026-05-13 17:06:31  INFO     Summary  |  Total: 19  ·  From CRM contacts: 0  ·  Unknown: 19
+2026-05-13 17:06:31  INFO     ============================================================
+
+2026-05-13 17:10:08  INFO     ============================================================
+2026-05-13 17:10:08  INFO     Email check started  — 2026-05-13 17:10 WIB
+2026-05-13 17:10:08  INFO     Looking back         — 30 day(s) (since 2026-04-13)
+2026-05-13 17:10:08  INFO     ============================================================
+2026-05-13 17:10:10  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null "HTTP/2 200 OK"
+2026-05-13 17:10:10  INFO     
+👥 CRM contacts with email: 4
+2026-05-13 17:10:10  INFO        • humas@perpusnas.go.id
+2026-05-13 17:10:10  INFO        • wakandafestival.organisers@gmail.com
+2026-05-13 17:10:10  INFO        • yassertamayopuno23@gmail.com
+2026-05-13 17:10:10  INFO        • ybb.admn@gmail.com
+2026-05-13 17:10:13  INFO     
+📬 Scanning mailboxes…
+2026-05-13 17:10:14  INFO       INBOX: 649 message(s) since 13-Apr-2026
+2026-05-13 17:13:12  INFO       "[Gmail]/Sent Mail": 472 message(s) since 13-Apr-2026
+2026-05-13 17:15:19  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?columns=%22received_at%22%2C%22from_name%22%2C%22from_email%22%2C%22direction%22%2C%22subject%22%2C%22workspace_id%22%2C%22contact_id%22%2C%22to_email%22 "HTTP/2 201 Created"
+2026-05-13 17:15:19  INFO        💾 Saved to Supabase — 4 inbound, 8 outbound.
+2026-05-13 17:15:19  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:15:19  INFO     📧  EMAIL ACTIVITY WITH CRM CONTACTS (12 message(s))
+2026-05-13 17:15:19  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:15:19  INFO     
+  👤 Yasser T. Puno <yassertamayopuno23@gmail.com>  [twibbonize]
+2026-05-13 17:15:19  INFO          ← [2026-05-06 15:03 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          → [2026-05-06 13:34 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          → [2026-04-30 16:08 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          → [2026-04-27 18:21 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          ← [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          → [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          ← [2026-04-27 17:41 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          → [2026-04-27 17:40 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          ← [2026-04-27 17:22 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO          → [2026-04-27 15:18 WIB]  2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:15:19  INFO     
+  👤 Youth Break the Boundaries <ybb.admn@gmail.com>  [twibbonize]
+2026-05-13 17:15:19  INFO          → [2026-04-23 13:20 WIB]  Quick note on your KYS campaign
+2026-05-13 17:15:19  INFO          → [2026-04-23 07:58 WIB]  Twibbonize – Thank You & Quick Chat Request
+2026-05-13 17:15:19  INFO     
+============================================================
+2026-05-13 17:15:19  INFO     Summary  |  Contacts: 2  ·  Received: 4  ·  Sent (replies): 8
+2026-05-13 17:15:19  INFO     ============================================================
+
+2026-05-13 17:27:10  INFO     ============================================================
+2026-05-13 17:27:10  INFO     Email check — 2026-05-13 17:27 WIB  (last 30d)
+2026-05-13 17:27:10  INFO     ============================================================
+2026-05-13 17:27:11  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null "HTTP/2 200 OK"
+2026-05-13 17:27:11  INFO     
+👥 CRM contacts with email: 4
+2026-05-13 17:27:11  INFO        • humas@perpusnas.go.id
+2026-05-13 17:27:11  INFO        • wakandafestival.organisers@gmail.com
+2026-05-13 17:27:11  INFO        • yassertamayopuno23@gmail.com
+2026-05-13 17:27:11  INFO        • ybb.admn@gmail.com
+2026-05-13 17:27:13  INFO     
+📬 Scanning mailboxes…
+2026-05-13 17:27:14  INFO       INBOX: 649 message(s) since 13-Apr-2026
+2026-05-13 17:28:16  INFO     ============================================================
+2026-05-13 17:28:16  INFO     Email check — 2026-05-13 17:28 WIB  (last 30d)
+2026-05-13 17:28:16  INFO     ============================================================
+2026-05-13 17:28:16  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null "HTTP/2 200 OK"
+2026-05-13 17:28:16  INFO     
+👥 CRM contacts with email: 4
+2026-05-13 17:28:16  INFO        • humas@perpusnas.go.id
+2026-05-13 17:28:16  INFO        • wakandafestival.organisers@gmail.com
+2026-05-13 17:28:16  INFO        • yassertamayopuno23@gmail.com
+2026-05-13 17:28:16  INFO        • ybb.admn@gmail.com
+2026-05-13 17:28:17  INFO     
+📬 Scanning mailboxes…
+2026-05-13 17:28:18  INFO       INBOX: 649 message(s) since 13-Apr-2026
+2026-05-13 17:30:14  INFO       "[Gmail]/Sent Mail": 472 message(s) since 13-Apr-2026
+2026-05-13 17:31:21  INFO       "[Gmail]/Sent Mail": 472 message(s) since 13-Apr-2026
+2026-05-13 17:32:16  INFO        Fetching body for 4 inbound match(es)…
+2026-05-13 17:32:18  INFO        Fetching body for 8 outbound match(es)…
+2026-05-13 17:32:22  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?columns=%22received_at%22%2C%22from_name%22%2C%22to_email%22%2C%22body_preview%22%2C%22subject%22%2C%22workspace_id%22%2C%22from_email%22%2C%22direction%22%2C%22contact_id%22 "HTTP/2 409 Conflict"
+2026-05-13 17:32:22  ERROR    Failed to save email logs: {'message': 'duplicate key value violates unique constraint "contact_email_logs_contact_id_from_email_received_at_key"', 'code': '23505', 'hint': None, 'details': 'Key (contact_id, from_email, received_at)=(b5fd5ac1-87e3-448a-876f-acbb18850c5f, yassertamayopuno23@gmail.com, 2026-04-27 10:22:12+00) already exists.'}
+2026-05-13 17:32:22  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:32:22  INFO     📧  EMAIL ACTIVITY (12 message(s))
+2026-05-13 17:32:22  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:32:22  INFO     
+  👤 Yasser T. Puno <yassertamayopuno23@gmail.com>
+2026-05-13 17:32:22  INFO          ← [2026-05-06 15:03 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "It was great meeting you as well! I have already finished th"
+2026-05-13 17:32:22  INFO          → [2026-05-06 13:34 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "Hi Yasser, Thank you so much for taking the time to speak wi"
+2026-05-13 17:32:22  INFO          → [2026-04-30 16:08 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "Hello Yasser, We already in Google Meet room. Thank You Best"
+2026-05-13 17:32:22  INFO          → [2026-04-27 18:21 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "Hi Yasser, Thank you for confirming — Thursday, 30 April at "
+2026-05-13 17:32:22  INFO          ← [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "Yes, I will be available at that time. Thank you very much."
+2026-05-13 17:32:22  INFO          → [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "Hi Yasser, Would Thursday at 5:00 PM Philippine time work in"
+2026-05-13 17:32:22  INFO          ← [2026-04-27 17:41 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "I am available tonight, Sir. Around 10:00 PM here in PH time"
+2026-05-13 17:32:22  INFO          → [2026-04-27 17:40 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "Hi Yasser, Thank you so much for getting back — great to hea"
+2026-05-13 17:32:22  INFO          ← [2026-04-27 17:22 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "Hello. I would be happy, Sir. Thank you for this opportunity"
+2026-05-13 17:32:22  INFO          → [2026-04-27 15:18 WIB]  2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:32:22  INFO              "Hi Yasser, I came across your *2025 DHVSU National Women's M"
+2026-05-13 17:32:22  INFO     
+  👤 Youth Break the Boundaries <ybb.admn@gmail.com>
+2026-05-13 17:32:22  INFO          → [2026-04-23 13:20 WIB]  Quick note on your KYS campaign
+2026-05-13 17:32:22  INFO              "Hi Youth Break the Boundaries team, I noticed you used Twibb"
+2026-05-13 17:32:22  INFO          → [2026-04-23 07:58 WIB]  Twibbonize – Thank You & Quick Chat Request
+2026-05-13 17:32:22  INFO              "Dear Youth Break the Boundaries Team, My name is Andar, Chie"
+2026-05-13 17:32:22  INFO     
+============================================================
+2026-05-13 17:32:22  INFO     Summary  |  Contacts: 2  ·  Received: 4  ·  Sent: 8
+2026-05-13 17:32:22  INFO     ============================================================
+
+2026-05-13 17:33:31  INFO        Fetching body for 4 inbound match(es)…
+2026-05-13 17:33:33  INFO        Fetching body for 8 outbound match(es)…
+2026-05-13 17:33:37  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?columns=%22from_email%22%2C%22direction%22%2C%22from_name%22%2C%22to_email%22%2C%22contact_id%22%2C%22subject%22%2C%22workspace_id%22%2C%22received_at%22%2C%22body_preview%22 "HTTP/2 409 Conflict"
+2026-05-13 17:33:37  ERROR    Failed to save email logs: {'message': 'duplicate key value violates unique constraint "contact_email_logs_contact_id_from_email_received_at_key"', 'code': '23505', 'hint': None, 'details': 'Key (contact_id, from_email, received_at)=(b5fd5ac1-87e3-448a-876f-acbb18850c5f, yassertamayopuno23@gmail.com, 2026-04-27 10:22:12+00) already exists.'}
+2026-05-13 17:33:37  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:33:37  INFO     📧  EMAIL ACTIVITY (12 message(s))
+2026-05-13 17:33:37  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:33:37  INFO     
+  👤 Yasser T. Puno <yassertamayopuno23@gmail.com>
+2026-05-13 17:33:37  INFO          ← [2026-05-06 15:03 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "It was great meeting you as well! I have already finished th"
+2026-05-13 17:33:37  INFO          → [2026-05-06 13:34 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "Hi Yasser, Thank you so much for taking the time to speak wi"
+2026-05-13 17:33:37  INFO          → [2026-04-30 16:08 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "Hello Yasser, We already in Google Meet room. Thank You Best"
+2026-05-13 17:33:37  INFO          → [2026-04-27 18:21 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "Hi Yasser, Thank you for confirming — Thursday, 30 April at "
+2026-05-13 17:33:37  INFO          ← [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "Yes, I will be available at that time. Thank you very much."
+2026-05-13 17:33:37  INFO          → [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "Hi Yasser, Would Thursday at 5:00 PM Philippine time work in"
+2026-05-13 17:33:37  INFO          ← [2026-04-27 17:41 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "I am available tonight, Sir. Around 10:00 PM here in PH time"
+2026-05-13 17:33:37  INFO          → [2026-04-27 17:40 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "Hi Yasser, Thank you so much for getting back — great to hea"
+2026-05-13 17:33:37  INFO          ← [2026-04-27 17:22 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "Hello. I would be happy, Sir. Thank you for this opportunity"
+2026-05-13 17:33:37  INFO          → [2026-04-27 15:18 WIB]  2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:33:37  INFO              "Hi Yasser, I came across your *2025 DHVSU National Women's M"
+2026-05-13 17:33:37  INFO     
+  👤 Youth Break the Boundaries <ybb.admn@gmail.com>
+2026-05-13 17:33:37  INFO          → [2026-04-23 13:20 WIB]  Quick note on your KYS campaign
+2026-05-13 17:33:37  INFO              "Hi Youth Break the Boundaries team, I noticed you used Twibb"
+2026-05-13 17:33:37  INFO          → [2026-04-23 07:58 WIB]  Twibbonize – Thank You & Quick Chat Request
+2026-05-13 17:33:37  INFO              "Dear Youth Break the Boundaries Team, My name is Andar, Chie"
+2026-05-13 17:33:37  INFO     
+============================================================
+2026-05-13 17:33:37  INFO     Summary  |  Contacts: 2  ·  Received: 4  ·  Sent: 8
+2026-05-13 17:33:37  INFO     ============================================================
+
+2026-05-13 17:34:00  INFO     ============================================================
+2026-05-13 17:34:00  INFO     Email check — 2026-05-13 17:34 WIB  (last 30d)
+2026-05-13 17:34:00  INFO     ============================================================
+2026-05-13 17:34:01  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null "HTTP/2 200 OK"
+2026-05-13 17:34:01  INFO     
+👥 CRM contacts with email: 4
+2026-05-13 17:34:01  INFO        • humas@perpusnas.go.id
+2026-05-13 17:34:01  INFO        • wakandafestival.organisers@gmail.com
+2026-05-13 17:34:01  INFO        • yassertamayopuno23@gmail.com
+2026-05-13 17:34:01  INFO        • ybb.admn@gmail.com
+2026-05-13 17:34:02  INFO     
+📬 Scanning mailboxes…
+2026-05-13 17:34:03  INFO       INBOX: 649 message(s) since 13-Apr-2026
+2026-05-13 17:36:47  INFO       "[Gmail]/Sent Mail": 472 message(s) since 13-Apr-2026
+2026-05-13 17:38:51  INFO        Fetching body for 4 inbound match(es)…
+2026-05-13 17:38:53  INFO        Fetching body for 8 outbound match(es)…
+2026-05-13 17:38:57  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?columns=%22workspace_id%22%2C%22body_preview%22%2C%22to_email%22%2C%22received_at%22%2C%22contact_id%22%2C%22subject%22%2C%22from_name%22%2C%22direction%22%2C%22from_email%22 "HTTP/2 409 Conflict"
+2026-05-13 17:38:57  ERROR    Failed to save email logs: {'message': 'duplicate key value violates unique constraint "contact_email_logs_contact_id_from_email_received_at_key"', 'code': '23505', 'hint': None, 'details': 'Key (contact_id, from_email, received_at)=(b5fd5ac1-87e3-448a-876f-acbb18850c5f, yassertamayopuno23@gmail.com, 2026-04-27 10:22:12+00) already exists.'}
+2026-05-13 17:38:57  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:38:57  INFO     📧  EMAIL ACTIVITY (12 message(s))
+2026-05-13 17:38:57  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:38:57  INFO     
+  👤 Yasser T. Puno <yassertamayopuno23@gmail.com>
+2026-05-13 17:38:57  INFO          ← [2026-05-06 15:03 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "It was great meeting you as well! I have already finished th"
+2026-05-13 17:38:57  INFO          → [2026-05-06 13:34 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "Hi Yasser, Thank you so much for taking the time to speak wi"
+2026-05-13 17:38:57  INFO          → [2026-04-30 16:08 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "Hello Yasser, We already in Google Meet room. Thank You Best"
+2026-05-13 17:38:57  INFO          → [2026-04-27 18:21 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "Hi Yasser, Thank you for confirming — Thursday, 30 April at "
+2026-05-13 17:38:57  INFO          ← [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "Yes, I will be available at that time. Thank you very much."
+2026-05-13 17:38:57  INFO          → [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "Hi Yasser, Would Thursday at 5:00 PM Philippine time work in"
+2026-05-13 17:38:57  INFO          ← [2026-04-27 17:41 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "I am available tonight, Sir. Around 10:00 PM here in PH time"
+2026-05-13 17:38:57  INFO          → [2026-04-27 17:40 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "Hi Yasser, Thank you so much for getting back — great to hea"
+2026-05-13 17:38:57  INFO          ← [2026-04-27 17:22 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "Hello. I would be happy, Sir. Thank you for this opportunity"
+2026-05-13 17:38:57  INFO          → [2026-04-27 15:18 WIB]  2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:38:57  INFO              "Hi Yasser, I came across your *2025 DHVSU National Women's M"
+2026-05-13 17:38:57  INFO     
+  👤 Youth Break the Boundaries <ybb.admn@gmail.com>
+2026-05-13 17:38:57  INFO          → [2026-04-23 13:20 WIB]  Quick note on your KYS campaign
+2026-05-13 17:38:57  INFO              "Hi Youth Break the Boundaries team, I noticed you used Twibb"
+2026-05-13 17:38:57  INFO          → [2026-04-23 07:58 WIB]  Twibbonize – Thank You & Quick Chat Request
+2026-05-13 17:38:57  INFO              "Dear Youth Break the Boundaries Team, My name is Andar, Chie"
+2026-05-13 17:38:57  INFO     
+============================================================
+2026-05-13 17:38:57  INFO     Summary  |  Contacts: 2  ·  Received: 4  ·  Sent: 8
+2026-05-13 17:38:57  INFO     ============================================================
+
+2026-05-13 17:39:46  INFO     ============================================================
+2026-05-13 17:39:46  INFO     Email check — 2026-05-13 17:39 WIB  (last 30d)
+2026-05-13 17:39:46  INFO     ============================================================
+2026-05-13 17:39:46  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null "HTTP/2 200 OK"
+2026-05-13 17:39:46  INFO     
+👥 CRM contacts with email: 4
+2026-05-13 17:39:46  INFO        • humas@perpusnas.go.id
+2026-05-13 17:39:46  INFO        • wakandafestival.organisers@gmail.com
+2026-05-13 17:39:46  INFO        • yassertamayopuno23@gmail.com
+2026-05-13 17:39:46  INFO        • ybb.admn@gmail.com
+2026-05-13 17:39:48  INFO     
+📬 Scanning mailboxes…
+2026-05-13 17:39:49  INFO       INBOX: 649 message(s) since 13-Apr-2026
+2026-05-13 17:43:52  INFO       "[Gmail]/Sent Mail": 472 message(s) since 13-Apr-2026
+2026-05-13 17:46:14  INFO        Fetching body for 4 inbound match(es)…
+2026-05-13 17:46:18  INFO        Fetching body for 8 outbound match(es)…
+2026-05-13 17:46:24  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:25  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.yassertamayopuno23%40gmail.com&received_at=eq.2026-04-27T17%3A22%3A12%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:25  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:25  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.yassertamayopuno23%40gmail.com&received_at=eq.2026-04-27T17%3A41%3A45%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:25  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:25  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.yassertamayopuno23%40gmail.com&received_at=eq.2026-04-27T17%3A45%3A45%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:25  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:25  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.yassertamayopuno23%40gmail.com&received_at=eq.2026-05-06T15%3A03%3A32%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:25  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:25  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.74f253cb-f9e9-4a17-aa99-5374ccff0829&from_email=eq.andar%40twibbonize.com&received_at=eq.2026-04-23T07%3A58%3A13%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:25  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:26  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.74f253cb-f9e9-4a17-aa99-5374ccff0829&from_email=eq.andar%40twibbonize.com&received_at=eq.2026-04-23T13%3A20%3A34%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:26  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:26  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.andar%40twibbonize.com&received_at=eq.2026-04-27T15%3A18%3A48%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:26  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:26  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.andar%40twibbonize.com&received_at=eq.2026-04-27T17%3A40%3A13%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:26  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:26  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.andar%40twibbonize.com&received_at=eq.2026-04-27T17%3A45%3A05%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:26  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:26  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.andar%40twibbonize.com&received_at=eq.2026-04-27T18%3A21%3A41%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:26  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:26  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.andar%40twibbonize.com&received_at=eq.2026-04-30T16%3A08%3A03%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:26  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-13 17:46:26  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.b5fd5ac1-87e3-448a-876f-acbb18850c5f&from_email=eq.andar%40twibbonize.com&received_at=eq.2026-05-06T13%3A34%3A39%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-13 17:46:26  INFO        💾 Saved — 4 inbound, 8 outbound  (new: 0, patched: 12).
+2026-05-13 17:46:26  INFO     
+────────────────────────────────────────────────────────────
+2026-05-13 17:46:26  INFO     📧  EMAIL ACTIVITY (12 message(s))
+2026-05-13 17:46:26  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 17:46:26  INFO     
+  👤 Yasser T. Puno <yassertamayopuno23@gmail.com>
+2026-05-13 17:46:26  INFO          ← [2026-05-06 15:03 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "It was great meeting you as well! I have already finished th"
+2026-05-13 17:46:26  INFO          → [2026-05-06 13:34 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "Hi Yasser, Thank you so much for taking the time to speak wi"
+2026-05-13 17:46:26  INFO          → [2026-04-30 16:08 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "Hello Yasser, We already in Google Meet room. Thank You Best"
+2026-05-13 17:46:26  INFO          → [2026-04-27 18:21 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "Hi Yasser, Thank you for confirming — Thursday, 30 April at "
+2026-05-13 17:46:26  INFO          ← [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "Yes, I will be available at that time. Thank you very much."
+2026-05-13 17:46:26  INFO          → [2026-04-27 17:45 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "Hi Yasser, Would Thursday at 5:00 PM Philippine time work in"
+2026-05-13 17:46:26  INFO          ← [2026-04-27 17:41 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "I am available tonight, Sir. Around 10:00 PM here in PH time"
+2026-05-13 17:46:26  INFO          → [2026-04-27 17:40 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "Hi Yasser, Thank you so much for getting back — great to hea"
+2026-05-13 17:46:26  INFO          ← [2026-04-27 17:22 WIB]  Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "Hello. I would be happy, Sir. Thank you for this opportunity"
+2026-05-13 17:46:26  INFO          → [2026-04-27 15:18 WIB]  2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-13 17:46:26  INFO              "Hi Yasser, I came across your *2025 DHVSU National Women's M"
+2026-05-13 17:46:26  INFO     
+  👤 Youth Break the Boundaries <ybb.admn@gmail.com>
+2026-05-13 17:46:26  INFO          → [2026-04-23 13:20 WIB]  Quick note on your KYS campaign
+2026-05-13 17:46:26  INFO              "Hi Youth Break the Boundaries team, I noticed you used Twibb"
+2026-05-13 17:46:26  INFO          → [2026-04-23 07:58 WIB]  Twibbonize – Thank You & Quick Chat Request
+2026-05-13 17:46:26  INFO              "Dear Youth Break the Boundaries Team, My name is Andar, Chie"
+2026-05-13 17:46:26  INFO     
+============================================================
+2026-05-13 17:46:26  INFO     Summary  |  Contacts: 2  ·  Received: 4  ·  Sent: 8
+2026-05-13 17:46:26  INFO     ============================================================
+
+2026-05-14 14:06:24  INFO     ============================================================
+2026-05-14 14:06:24  INFO     Email check — 2026-05-14 14:06 WIB  (last 1d)
+2026-05-14 14:06:24  INFO     ============================================================
+2026-05-14 14:06:25  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-14 14:06:25  INFO     
+👥 CRM contacts with email: 5
+2026-05-14 14:06:25  INFO        • andar.rahman21@gmail.com
+2026-05-14 14:06:25  INFO        • humas@perpusnas.go.id
+2026-05-14 14:06:25  INFO        • wakandafestival.organisers@gmail.com
+2026-05-14 14:06:25  INFO        • yassertamayopuno23@gmail.com
+2026-05-14 14:06:25  INFO        • ybb.admn@gmail.com
+2026-05-14 14:06:26  INFO     
+📬 Scanning mailboxes…
+2026-05-14 14:06:27  INFO       INBOX: 27 message(s) since 13-May-2026
+2026-05-14 14:06:34  INFO       "[Gmail]/Sent Mail": 1 message(s) since 13-May-2026
+2026-05-14 14:06:34  INFO        Fetching body for 1 inbound match(es)…
+2026-05-14 14:06:35  INFO        Fetching body for 1 outbound match(es)…
+2026-05-14 14:06:36  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-14 14:06:36  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-14 14:06:36  INFO        💾 Saved — 1 inbound, 1 outbound  (new: 2, patched: 0).
+2026-05-14 14:06:36  INFO     
+────────────────────────────────────────────────────────────
+2026-05-14 14:06:36  INFO     📧  EMAIL ACTIVITY (2 message(s))
+2026-05-14 14:06:36  INFO     ────────────────────────────────────────────────────────────
+2026-05-14 14:06:36  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-14 14:06:36  INFO          ← [2026-05-14 11:59 WIB]  Re: Test
+2026-05-14 14:06:36  INFO              "Hi bro On Thu, May 14, 2026 at 11:58 AM Andar · Twibbonize <"
+2026-05-14 14:06:36  INFO          → [2026-05-14 11:58 WIB]  Test
+2026-05-14 14:06:36  INFO              "Uji coba"
+2026-05-14 14:06:36  INFO     
+============================================================
+2026-05-14 14:06:36  INFO     Summary  |  Contacts: 1  ·  Received: 1  ·  Sent: 1
+2026-05-14 14:06:36  INFO     ============================================================
+
+2026-05-15 09:36:50  INFO     ============================================================
+2026-05-15 09:36:50  INFO     Email check — 2026-05-15 09:36 WIB  (last 1d)
+2026-05-15 09:36:50  INFO     ============================================================
+2026-05-15 09:36:51  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 09:36:51  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 09:36:51  INFO        • andar.rahman21@gmail.com
+2026-05-15 09:36:51  INFO        • humas@perpusnas.go.id
+2026-05-15 09:36:51  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 09:36:51  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 09:36:51  INFO        • ybb.admn@gmail.com
+2026-05-15 09:36:51  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 09:36:51  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 09:36:52  INFO     
+📬 Scanning mailboxes…
+2026-05-15 09:36:53  INFO       INBOX: 19 message(s) since 14-May-2026
+2026-05-15 09:36:58  INFO       "[Gmail]/Sent Mail": 13 message(s) since 14-May-2026
+2026-05-15 09:37:02  INFO        Fetching body for 2 inbound match(es)…
+2026-05-15 09:37:03  INFO        Fetching body for 13 outbound match(es)…
+2026-05-15 09:37:08  INFO        ⏭️  Skipped 13 outbound email(s) already in CRM threads.
+2026-05-15 09:37:08  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 09:37:08  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 09:37:08  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 09:37:08  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 09:37:08  INFO       ↪  Linked reply 'Re: Test' to thread 41b01c6c
+2026-05-15 09:37:08  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 09:37:09  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.4e58b94b-a411-44ae-9dfa-72b98f027f0d "HTTP/2 200 OK"
+2026-05-15 09:37:09  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-15 09:37:09  INFO        🔗  Linked 1 inbound reply(ies) to CRM threads.
+2026-05-15 09:37:09  INFO        💾 Saved — 2 inbound, 0 outbound  (new: 1, patched: 1).
+2026-05-15 09:37:09  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 09:37:09  INFO     📧  EMAIL ACTIVITY (15 message(s))
+2026-05-15 09:37:09  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 09:37:09  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 09:37:09  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 09:37:09  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 09:37:09  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 09:37:09  INFO              "Terlampir"
+2026-05-15 09:37:09  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 09:37:09  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 09:37:09  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 09:37:09  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 09:37:09  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 09:37:09  INFO              "Multiple File"
+2026-05-15 09:37:09  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 09:37:09  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 09:37:09  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 09:37:09  INFO              "PDF"
+2026-05-15 09:37:09  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 09:37:09  INFO              "attachment"
+2026-05-15 09:37:09  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 09:37:09  INFO              "Attchment"
+2026-05-15 09:37:09  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 09:37:09  INFO              "Halo lagi sdsd"
+2026-05-15 09:37:09  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 09:37:09  INFO              "Test"
+2026-05-15 09:37:09  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 09:37:09  INFO              "asas"
+2026-05-15 09:37:09  INFO          → [2026-05-14 15:38 WIB]  Test 123
+2026-05-15 09:37:09  INFO              "andar rahman HGsds sdsd dfd sdsd Halo"
+2026-05-15 09:37:09  INFO          ← [2026-05-14 11:59 WIB]  Re: Test
+2026-05-15 09:37:09  INFO              "Hi bro On Thu, May 14, 2026 at 11:58 AM Andar · Twibbonize <"
+2026-05-15 09:37:09  INFO          → [2026-05-14 11:58 WIB]  Test
+2026-05-15 09:37:09  INFO              "Uji coba"
+2026-05-15 09:37:09  INFO     
+============================================================
+2026-05-15 09:37:09  INFO     Summary  |  Contacts: 1  ·  Received: 2  ·  Sent: 13
+2026-05-15 09:37:09  INFO     ============================================================
+
+2026-05-15 09:38:18  INFO     ============================================================
+2026-05-15 09:38:18  INFO     Email check — 2026-05-15 09:38 WIB  (last 1d)
+2026-05-15 09:38:18  INFO     ============================================================
+2026-05-15 09:38:18  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 09:38:18  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 09:38:18  INFO        • andar.rahman21@gmail.com
+2026-05-15 09:38:18  INFO        • humas@perpusnas.go.id
+2026-05-15 09:38:18  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 09:38:18  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 09:38:18  INFO        • ybb.admn@gmail.com
+2026-05-15 09:38:18  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 09:38:18  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 09:38:19  INFO     
+📬 Scanning mailboxes…
+2026-05-15 09:38:19  INFO       INBOX: 19 message(s) since 14-May-2026
+2026-05-15 09:38:26  INFO       "[Gmail]/Sent Mail": 13 message(s) since 14-May-2026
+2026-05-15 09:38:29  INFO        Fetching body for 2 inbound match(es)…
+2026-05-15 09:38:30  INFO        Fetching body for 13 outbound match(es)…
+2026-05-15 09:38:36  INFO        ⏭️  Skipped 13 outbound email(s) already in CRM threads.
+2026-05-15 09:38:36  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 09:38:36  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 09:38:37  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 09:38:37  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 09:38:37  INFO       ↪  Linked reply 'Re: Test' to thread 41b01c6c
+2026-05-15 09:38:37  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 09:38:37  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.4e58b94b-a411-44ae-9dfa-72b98f027f0d "HTTP/2 200 OK"
+2026-05-15 09:38:37  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 09:38:37  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 09:38:37  INFO        🔗  Linked 1 inbound reply(ies) to CRM threads.
+2026-05-15 09:38:37  INFO        💾 Saved — 2 inbound, 0 outbound  (new: 0, patched: 2).
+2026-05-15 09:38:37  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 09:38:37  INFO     📧  EMAIL ACTIVITY (15 message(s))
+2026-05-15 09:38:37  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 09:38:37  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 09:38:37  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 09:38:37  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 09:38:37  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 09:38:37  INFO              "Terlampir"
+2026-05-15 09:38:37  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 09:38:37  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 09:38:37  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 09:38:37  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 09:38:37  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 09:38:37  INFO              "Multiple File"
+2026-05-15 09:38:37  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 09:38:37  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 09:38:37  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 09:38:37  INFO              "PDF"
+2026-05-15 09:38:37  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 09:38:37  INFO              "attachment"
+2026-05-15 09:38:37  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 09:38:37  INFO              "Attchment"
+2026-05-15 09:38:37  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 09:38:37  INFO              "Halo lagi sdsd"
+2026-05-15 09:38:37  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 09:38:37  INFO              "Test"
+2026-05-15 09:38:37  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 09:38:37  INFO              "asas"
+2026-05-15 09:38:37  INFO          → [2026-05-14 15:38 WIB]  Test 123
+2026-05-15 09:38:37  INFO              "andar rahman HGsds sdsd dfd sdsd Halo"
+2026-05-15 09:38:37  INFO          ← [2026-05-14 11:59 WIB]  Re: Test
+2026-05-15 09:38:37  INFO              "Hi bro On Thu, May 14, 2026 at 11:58 AM Andar · Twibbonize <"
+2026-05-15 09:38:37  INFO          → [2026-05-14 11:58 WIB]  Test
+2026-05-15 09:38:37  INFO              "Uji coba"
+2026-05-15 09:38:37  INFO     
+============================================================
+2026-05-15 09:38:37  INFO     Summary  |  Contacts: 1  ·  Received: 2  ·  Sent: 13
+2026-05-15 09:38:37  INFO     ============================================================
+
+2026-05-15 09:39:20  INFO     ============================================================
+2026-05-15 09:39:20  INFO     Email check — 2026-05-15 09:39 WIB  (last 1d)
+2026-05-15 09:39:20  INFO     ============================================================
+2026-05-15 09:39:21  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 09:39:21  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 09:39:21  INFO        • andar.rahman21@gmail.com
+2026-05-15 09:39:21  INFO        • humas@perpusnas.go.id
+2026-05-15 09:39:21  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 09:39:21  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 09:39:21  INFO        • ybb.admn@gmail.com
+2026-05-15 09:39:21  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 09:39:21  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 09:39:22  INFO     
+📬 Scanning mailboxes…
+2026-05-15 09:39:23  INFO       INBOX: 19 message(s) since 14-May-2026
+2026-05-15 09:39:29  INFO       "[Gmail]/Sent Mail": 13 message(s) since 14-May-2026
+2026-05-15 09:39:33  INFO        Fetching body for 2 inbound match(es)…
+2026-05-15 09:39:35  INFO        Fetching body for 13 outbound match(es)…
+2026-05-15 09:39:44  INFO        ⏭️  Skipped 13 outbound email(s) already in CRM threads.
+2026-05-15 09:39:45  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 09:39:45  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 09:39:45  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 09:39:45  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 09:39:45  INFO       ↪  Linked reply 'Re: Test' to thread 41b01c6c
+2026-05-15 09:39:45  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 09:39:45  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.4e58b94b-a411-44ae-9dfa-72b98f027f0d "HTTP/2 200 OK"
+2026-05-15 09:39:45  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 09:39:45  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 09:39:45  INFO        🔗  Linked 1 inbound reply(ies) to CRM threads.
+2026-05-15 09:39:45  INFO        💾 Saved — 2 inbound, 0 outbound  (new: 0, patched: 2).
+2026-05-15 09:39:45  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 09:39:45  INFO     📧  EMAIL ACTIVITY (15 message(s))
+2026-05-15 09:39:45  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 09:39:45  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 09:39:45  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 09:39:45  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 09:39:45  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 09:39:45  INFO              "Terlampir"
+2026-05-15 09:39:45  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 09:39:45  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 09:39:45  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 09:39:45  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 09:39:45  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 09:39:45  INFO              "Multiple File"
+2026-05-15 09:39:45  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 09:39:45  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 09:39:45  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 09:39:45  INFO              "PDF"
+2026-05-15 09:39:45  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 09:39:45  INFO              "attachment"
+2026-05-15 09:39:45  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 09:39:45  INFO              "Attchment"
+2026-05-15 09:39:45  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 09:39:45  INFO              "Halo lagi sdsd"
+2026-05-15 09:39:45  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 09:39:45  INFO              "Test"
+2026-05-15 09:39:45  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 09:39:45  INFO              "asas"
+2026-05-15 09:39:45  INFO          → [2026-05-14 15:38 WIB]  Test 123
+2026-05-15 09:39:45  INFO              "andar rahman HGsds sdsd dfd sdsd Halo"
+2026-05-15 09:39:45  INFO          ← [2026-05-14 11:59 WIB]  Re: Test
+2026-05-15 09:39:45  INFO              "Hi bro On Thu, May 14, 2026 at 11:58 AM Andar · Twibbonize <"
+2026-05-15 09:39:45  INFO          → [2026-05-14 11:58 WIB]  Test
+2026-05-15 09:39:45  INFO              "Uji coba"
+2026-05-15 09:39:45  INFO     
+============================================================
+2026-05-15 09:39:45  INFO     Summary  |  Contacts: 1  ·  Received: 2  ·  Sent: 13
+2026-05-15 09:39:45  INFO     ============================================================
+
+2026-05-15 09:40:45  INFO     ============================================================
+2026-05-15 09:40:45  INFO     Email check — 2026-05-15 09:40 WIB  (last 1d)
+2026-05-15 09:40:45  INFO     ============================================================
+2026-05-15 09:40:45  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 09:40:45  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 09:40:45  INFO        • andar.rahman21@gmail.com
+2026-05-15 09:40:45  INFO        • humas@perpusnas.go.id
+2026-05-15 09:40:45  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 09:40:45  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 09:40:45  INFO        • ybb.admn@gmail.com
+2026-05-15 09:40:45  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 09:40:45  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 09:40:47  INFO     
+📬 Scanning mailboxes…
+2026-05-15 09:40:48  INFO       INBOX: 20 message(s) since 14-May-2026
+2026-05-15 09:40:55  INFO       "[Gmail]/Sent Mail": 13 message(s) since 14-May-2026
+2026-05-15 09:40:59  INFO        Fetching body for 3 inbound match(es)…
+2026-05-15 09:41:01  INFO        Fetching body for 13 outbound match(es)…
+2026-05-15 09:41:07  INFO        ⏭️  Skipped 13 outbound email(s) already in CRM threads.
+2026-05-15 09:41:07  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 09:41:07  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 09:41:08  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 09:41:08  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 09:41:08  INFO       ↪  Linked reply 'Re: Test' to thread 41b01c6c
+2026-05-15 09:41:08  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 09:41:08  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.4e58b94b-a411-44ae-9dfa-72b98f027f0d "HTTP/2 200 OK"
+2026-05-15 09:41:08  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 09:41:08  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 09:41:08  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-15 09:41:08  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 09:41:08  INFO       ↪  Linked reply 'test' to thread 41b01c6c
+2026-05-15 09:41:08  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 09:41:08  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.b74728f8-c370-4e0e-a5ca-85b6a58bb25f "HTTP/2 200 OK"
+2026-05-15 09:41:08  INFO        🔗  Linked 2 inbound reply(ies) to CRM threads.
+2026-05-15 09:41:08  INFO        💾 Saved — 3 inbound, 0 outbound  (new: 1, patched: 2).
+2026-05-15 09:41:08  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 09:41:08  INFO     📧  EMAIL ACTIVITY (16 message(s))
+2026-05-15 09:41:08  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 09:41:08  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 09:41:08  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 09:41:08  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 09:41:08  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 09:41:08  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 09:41:08  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 09:41:08  INFO              "Terlampir"
+2026-05-15 09:41:08  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 09:41:08  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 09:41:08  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 09:41:08  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 09:41:08  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 09:41:08  INFO              "Multiple File"
+2026-05-15 09:41:08  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 09:41:08  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 09:41:08  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 09:41:08  INFO              "PDF"
+2026-05-15 09:41:08  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 09:41:08  INFO              "attachment"
+2026-05-15 09:41:08  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 09:41:08  INFO              "Attchment"
+2026-05-15 09:41:08  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 09:41:08  INFO              "Halo lagi sdsd"
+2026-05-15 09:41:08  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 09:41:08  INFO              "Test"
+2026-05-15 09:41:08  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 09:41:08  INFO              "asas"
+2026-05-15 09:41:08  INFO          → [2026-05-14 15:38 WIB]  Test 123
+2026-05-15 09:41:08  INFO              "andar rahman HGsds sdsd dfd sdsd Halo"
+2026-05-15 09:41:08  INFO          ← [2026-05-14 11:59 WIB]  Re: Test
+2026-05-15 09:41:08  INFO              "Hi bro On Thu, May 14, 2026 at 11:58 AM Andar · Twibbonize <"
+2026-05-15 09:41:08  INFO          → [2026-05-14 11:58 WIB]  Test
+2026-05-15 09:41:08  INFO              "Uji coba"
+2026-05-15 09:41:08  INFO     
+============================================================
+2026-05-15 09:41:08  INFO     Summary  |  Contacts: 1  ·  Received: 3  ·  Sent: 13
+2026-05-15 09:41:08  INFO     ============================================================
+
+2026-05-15 10:59:42  INFO     ============================================================
+2026-05-15 10:59:42  INFO     Email check — 2026-05-15 10:59 WIB  (last 1d)
+2026-05-15 10:59:42  INFO     ============================================================
+2026-05-15 10:59:44  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 10:59:44  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 10:59:44  INFO        • andar.rahman21@gmail.com
+2026-05-15 10:59:44  INFO        • humas@perpusnas.go.id
+2026-05-15 10:59:44  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 10:59:44  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 10:59:44  INFO        • ybb.admn@gmail.com
+2026-05-15 10:59:44  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 10:59:44  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 10:59:45  INFO     
+📬 Scanning mailboxes…
+2026-05-15 10:59:45  INFO       INBOX: 22 message(s) since 14-May-2026
+2026-05-15 10:59:54  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 10:59:58  INFO        Fetching body for 4 inbound match(es)…
+2026-05-15 10:59:59  INFO        Fetching body for 13 outbound match(es)…
+2026-05-15 11:00:04  INFO        ⏭️  Skipped 13 outbound email(s) already in CRM threads.
+2026-05-15 11:00:04  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 11:00:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 11:00:05  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-14T11%3A59%3A34%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 11:00:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 11:00:05  INFO       ↪  Linked reply 'Re: Test' to thread 41b01c6c
+2026-05-15 11:00:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 11:00:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.4e58b94b-a411-44ae-9dfa-72b98f027f0d "HTTP/2 200 OK"
+2026-05-15 11:00:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 11:00:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 11:00:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_preview=is.null "HTTP/2 200 OK"
+2026-05-15 11:00:05  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 11:00:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 11:00:05  INFO       ↪  Linked reply 'test' to thread 41b01c6c
+2026-05-15 11:00:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 11:00:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.b74728f8-c370-4e0e-a5ca-85b6a58bb25f "HTTP/2 200 OK"
+2026-05-15 11:00:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-15 11:00:05  INFO        🔗  Linked 2 inbound reply(ies) to CRM threads.
+2026-05-15 11:00:05  INFO        💾 Saved — 4 inbound, 0 outbound  (new: 1, patched: 2).
+2026-05-15 11:00:05  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 11:00:05  INFO     📧  EMAIL ACTIVITY (17 message(s))
+2026-05-15 11:00:05  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 11:00:05  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 11:00:05  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 11:00:05  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 11:00:05  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 11:00:05  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 11:00:05  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 11:00:05  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 11:00:05  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 11:00:05  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 11:00:05  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 11:00:05  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 11:00:05  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 11:00:05  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 11:00:05  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 11:00:05  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 11:00:05  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 11:00:05  INFO              "Halo lagi sdsd"
+2026-05-15 11:00:05  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 11:00:05  INFO              "Test"
+2026-05-15 11:00:05  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 11:00:05  INFO              "asas"
+2026-05-15 11:00:05  INFO          → [2026-05-14 15:38 WIB]  Test 123
+2026-05-15 11:00:05  INFO              "andar rahman HGsds sdsd dfd sdsd Halo"
+2026-05-15 11:00:05  INFO          ← [2026-05-14 11:59 WIB]  Re: Test
+2026-05-15 11:00:05  INFO              "Hi bro On Thu, May 14, 2026 at 11:58 AM Andar · Twibbonize <"
+2026-05-15 11:00:05  INFO          → [2026-05-14 11:58 WIB]  Test
+2026-05-15 11:00:05  INFO              "Uji coba"
+2026-05-15 11:00:05  INFO     
+============================================================
+2026-05-15 11:00:05  INFO     Summary  |  Contacts: 1  ·  Received: 4  ·  Sent: 13
+2026-05-15 11:00:05  INFO     ============================================================
+
+2026-05-15 20:09:32  INFO     ============================================================
+2026-05-15 20:09:32  INFO     Email check — 2026-05-15 20:09 WIB  (last 30d)
+2026-05-15 20:09:32  INFO     ============================================================
+2026-05-15 20:09:33  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:09:33  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 20:09:33  INFO        • andar.rahman21@gmail.com
+2026-05-15 20:09:33  INFO        • humas@perpusnas.go.id
+2026-05-15 20:09:33  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 20:09:33  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 20:09:33  INFO        • ybb.admn@gmail.com
+2026-05-15 20:09:33  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:09:33  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 20:09:34  INFO     
+📬 Scanning mailboxes…
+2026-05-15 20:09:35  INFO       INBOX: 635 message(s) since 15-Apr-2026
+2026-05-15 20:10:40  INFO     ============================================================
+2026-05-15 20:10:40  INFO     Email check — 2026-05-15 20:10 WIB  (last 1d)
+2026-05-15 20:10:40  INFO     ============================================================
+2026-05-15 20:10:41  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:10:41  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 20:10:41  INFO        • andar.rahman21@gmail.com
+2026-05-15 20:10:41  INFO        • humas@perpusnas.go.id
+2026-05-15 20:10:41  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 20:10:41  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 20:10:41  INFO        • ybb.admn@gmail.com
+2026-05-15 20:10:41  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:10:41  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 20:10:44  INFO     
+📬 Scanning mailboxes…
+2026-05-15 20:10:47  INFO       INBOX: 28 message(s) since 14-May-2026
+2026-05-15 20:11:02  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 20:11:07  INFO        Fetching body for 4 inbound match(es)…
+2026-05-15 20:11:09  INFO        Fetching body for 11 outbound match(es)…
+2026-05-15 20:11:15  INFO        ⏭️  Skipped 11 outbound email(s) already in CRM threads.
+2026-05-15 20:11:15  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:11:15  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:11:15  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:11:15  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:11:16  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 20:11:16  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 20:11:16  INFO       ↪  Linked reply 'test' to thread 41b01c6c
+2026-05-15 20:11:16  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 20:11:16  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.b74728f8-c370-4e0e-a5ca-85b6a58bb25f "HTTP/2 200 OK"
+2026-05-15 20:11:16  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:11:16  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T10%3A59%3A03%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:11:16  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-15 20:11:16  INFO        🔗  Linked 1 inbound reply(ies) to CRM threads.
+2026-05-15 20:11:16  INFO        💾 Saved — 4 inbound, 0 outbound  (new: 1, patched: 3).
+2026-05-15 20:11:16  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 20:11:16  INFO     📧  EMAIL ACTIVITY (15 message(s))
+2026-05-15 20:11:16  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 20:11:16  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 20:11:16  INFO          ← [2026-05-15 20:08 WIB]  Test - Andar Rahman
+2026-05-15 20:11:16  INFO              "*Bold* *Italic* *Underline* [image: images (17)-Picsart-Back"
+2026-05-15 20:11:16  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 20:11:16  INFO              "Andar Rahman *Test Bold* *Underline* *Italy* ahi <http://www"
+2026-05-15 20:11:16  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 20:11:16  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 20:11:16  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 20:11:16  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 20:11:16  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 20:11:16  INFO              "Terlampir"
+2026-05-15 20:11:16  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 20:11:16  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 20:11:16  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 20:11:16  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 20:11:16  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 20:11:16  INFO              "Multiple File"
+2026-05-15 20:11:16  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 20:11:16  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 20:11:16  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 20:11:16  INFO              "PDF"
+2026-05-15 20:11:16  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 20:11:16  INFO              "attachment"
+2026-05-15 20:11:16  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 20:11:16  INFO              "Attchment"
+2026-05-15 20:11:16  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 20:11:16  INFO              "Halo lagi sdsd"
+2026-05-15 20:11:16  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 20:11:16  INFO              "Test"
+2026-05-15 20:11:16  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 20:11:16  INFO              "asas"
+2026-05-15 20:11:16  INFO     
+============================================================
+2026-05-15 20:11:16  INFO     Summary  |  Contacts: 1  ·  Received: 4  ·  Sent: 11
+2026-05-15 20:11:16  INFO     ============================================================
+
+2026-05-15 20:40:07  INFO     ============================================================
+2026-05-15 20:40:07  INFO     Email check — 2026-05-15 20:40 WIB  (last 1d)
+2026-05-15 20:40:07  INFO     ============================================================
+2026-05-15 20:40:08  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:40:08  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 20:40:08  INFO        • andar.rahman21@gmail.com
+2026-05-15 20:40:08  INFO        • humas@perpusnas.go.id
+2026-05-15 20:40:08  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 20:40:08  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 20:40:08  INFO        • ybb.admn@gmail.com
+2026-05-15 20:40:08  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:40:08  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 20:40:10  INFO     
+📬 Scanning mailboxes…
+2026-05-15 20:40:11  INFO       INBOX: 28 message(s) since 14-May-2026
+2026-05-15 20:40:22  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 20:40:27  INFO        Fetching body for 4 inbound match(es)…
+2026-05-15 20:40:32  INFO        Fetching body for 11 outbound match(es)…
+2026-05-15 20:40:38  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_09-35-33_a8eb8695_report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:40:39  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_10-59-03_04be0fd7_unnamed__3_.png "HTTP/2 200 OK"
+2026-05-15 20:40:39  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-08-42_1d7194a8_1778665253280-report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:40:39  INFO        ⏭️  Skipped 11 outbound email(s) already in CRM threads.
+2026-05-15 20:40:40  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:40:40  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:40:40  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:40:40  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:40:40  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 20:40:40  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 20:40:40  INFO       ↪  Linked reply 'test' to thread 41b01c6c
+2026-05-15 20:40:40  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 20:40:40  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.b74728f8-c370-4e0e-a5ca-85b6a58bb25f "HTTP/2 200 OK"
+2026-05-15 20:40:40  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:40:41  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T10%3A59%3A03%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:40:41  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:40:41  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A08%3A42%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:40:41  INFO        🔗  Linked 1 inbound reply(ies) to CRM threads.
+2026-05-15 20:40:41  INFO        💾 Saved — 4 inbound, 0 outbound  (new: 0, patched: 4).
+2026-05-15 20:40:41  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 20:40:41  INFO     📧  EMAIL ACTIVITY (15 message(s))
+2026-05-15 20:40:41  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 20:40:41  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 20:40:41  INFO          ← [2026-05-15 20:08 WIB]  Test - Andar Rahman
+2026-05-15 20:40:41  INFO              "*Bold* *Italic* *Underline* [image: images (17)-Picsart-Back"
+2026-05-15 20:40:41  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 20:40:41  INFO              "Andar Rahman *Test Bold* *Underline* *Italy* ahi <http://www"
+2026-05-15 20:40:41  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 20:40:41  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 20:40:41  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 20:40:41  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 20:40:41  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 20:40:41  INFO              "Terlampir"
+2026-05-15 20:40:41  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 20:40:41  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 20:40:41  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 20:40:41  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 20:40:41  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 20:40:41  INFO              "Multiple File"
+2026-05-15 20:40:41  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 20:40:41  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 20:40:41  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 20:40:41  INFO              "PDF"
+2026-05-15 20:40:41  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 20:40:41  INFO              "attachment"
+2026-05-15 20:40:41  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 20:40:41  INFO              "Attchment"
+2026-05-15 20:40:41  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 20:40:41  INFO              "Halo lagi sdsd"
+2026-05-15 20:40:41  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 20:40:41  INFO              "Test"
+2026-05-15 20:40:41  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 20:40:41  INFO              "asas"
+2026-05-15 20:40:41  INFO     
+============================================================
+2026-05-15 20:40:41  INFO     Summary  |  Contacts: 1  ·  Received: 4  ·  Sent: 11
+2026-05-15 20:40:41  INFO     ============================================================
+
+2026-05-15 20:43:32  INFO     ============================================================
+2026-05-15 20:43:32  INFO     Email check — 2026-05-15 20:43 WIB  (last 1d)
+2026-05-15 20:43:32  INFO     ============================================================
+2026-05-15 20:43:32  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:43:32  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 20:43:32  INFO        • andar.rahman21@gmail.com
+2026-05-15 20:43:32  INFO        • humas@perpusnas.go.id
+2026-05-15 20:43:32  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 20:43:32  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 20:43:32  INFO        • ybb.admn@gmail.com
+2026-05-15 20:43:32  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:43:32  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 20:43:33  INFO     
+📬 Scanning mailboxes…
+2026-05-15 20:43:34  INFO       INBOX: 28 message(s) since 14-May-2026
+2026-05-15 20:43:43  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 20:43:48  INFO        Fetching body for 4 inbound match(es)…
+2026-05-15 20:43:50  INFO        Fetching body for 11 outbound match(es)…
+2026-05-15 20:43:55  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_09-35-33_c5bd6ddd_report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:43:55  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_10-59-03_9e68dc81_unnamed__3_.png "HTTP/2 200 OK"
+2026-05-15 20:43:55  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-08-42_c16ad0dd_1778665253280-report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:43:55  INFO        ⏭️  Skipped 11 outbound email(s) already in CRM threads.
+2026-05-15 20:43:56  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:43:56  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:43:56  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:43:56  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:43:56  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 20:43:56  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 20:43:56  INFO       ↪  Linked reply 'test' to thread 41b01c6c
+2026-05-15 20:43:57  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 20:43:57  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.b74728f8-c370-4e0e-a5ca-85b6a58bb25f "HTTP/2 200 OK"
+2026-05-15 20:43:57  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:43:57  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T10%3A59%3A03%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:43:57  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:43:57  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A08%3A42%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:43:57  INFO        🔗  Linked 1 inbound reply(ies) to CRM threads.
+2026-05-15 20:43:57  INFO        💾 Saved — 4 inbound, 0 outbound  (new: 0, patched: 4).
+2026-05-15 20:43:57  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 20:43:57  INFO     📧  EMAIL ACTIVITY (15 message(s))
+2026-05-15 20:43:57  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 20:43:57  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 20:43:57  INFO          ← [2026-05-15 20:08 WIB]  Test - Andar Rahman
+2026-05-15 20:43:57  INFO              "*Bold* *Italic* *Underline* [image: images (17)-Picsart-Back"
+2026-05-15 20:43:57  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 20:43:57  INFO              "Andar Rahman *Test Bold* *Underline* *Italy* ahi <http://www"
+2026-05-15 20:43:57  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 20:43:57  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 20:43:57  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 20:43:57  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 20:43:57  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 20:43:57  INFO              "Terlampir"
+2026-05-15 20:43:57  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 20:43:57  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 20:43:57  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 20:43:57  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 20:43:57  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 20:43:57  INFO              "Multiple File"
+2026-05-15 20:43:57  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 20:43:57  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 20:43:57  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 20:43:57  INFO              "PDF"
+2026-05-15 20:43:57  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 20:43:57  INFO              "attachment"
+2026-05-15 20:43:57  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 20:43:57  INFO              "Attchment"
+2026-05-15 20:43:57  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 20:43:57  INFO              "Halo lagi sdsd"
+2026-05-15 20:43:57  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 20:43:57  INFO              "Test"
+2026-05-15 20:43:57  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 20:43:57  INFO              "asas"
+2026-05-15 20:43:57  INFO     
+============================================================
+2026-05-15 20:43:57  INFO     Summary  |  Contacts: 1  ·  Received: 4  ·  Sent: 11
+2026-05-15 20:43:57  INFO     ============================================================
+
+2026-05-15 20:47:20  INFO     ============================================================
+2026-05-15 20:47:20  INFO     Email check — 2026-05-15 20:47 WIB  (last 1d)
+2026-05-15 20:47:20  INFO     ============================================================
+2026-05-15 20:47:21  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:47:21  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 20:47:21  INFO        • andar.rahman21@gmail.com
+2026-05-15 20:47:21  INFO        • humas@perpusnas.go.id
+2026-05-15 20:47:21  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 20:47:21  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 20:47:21  INFO        • ybb.admn@gmail.com
+2026-05-15 20:47:21  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:47:21  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 20:47:22  INFO     
+📬 Scanning mailboxes…
+2026-05-15 20:47:23  INFO       INBOX: 29 message(s) since 14-May-2026
+2026-05-15 20:47:31  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 20:47:34  INFO        Fetching body for 5 inbound match(es)…
+2026-05-15 20:47:36  INFO        Fetching body for 11 outbound match(es)…
+2026-05-15 20:47:40  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_09-35-33_5703f12d_report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:47:40  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_10-59-03_b0e12d10_unnamed__3_.png "HTTP/2 200 OK"
+2026-05-15 20:47:40  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-08-42_c09bae29_1778665253280-report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:47:40  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-47-01_64dc9758_screencapture-localhost-3000-contacts-new-2026-05-11-00_57_37.pdf "HTTP/2 200 OK"
+2026-05-15 20:47:40  INFO        ⏭️  Skipped 11 outbound email(s) already in CRM threads.
+2026-05-15 20:47:41  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:47:41  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:47:41  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:47:41  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:47:42  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 20:47:42  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 20:47:42  INFO       ↪  Linked reply 'test' to thread 41b01c6c
+2026-05-15 20:47:42  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 20:47:42  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.b74728f8-c370-4e0e-a5ca-85b6a58bb25f "HTTP/2 200 OK"
+2026-05-15 20:47:42  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:47:42  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T10%3A59%3A03%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:47:42  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:47:42  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A08%3A42%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:47:42  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-15 20:47:42  INFO        🔗  Linked 1 inbound reply(ies) to CRM threads.
+2026-05-15 20:47:42  INFO        💾 Saved — 5 inbound, 0 outbound  (new: 1, patched: 4).
+2026-05-15 20:47:42  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 20:47:42  INFO     📧  EMAIL ACTIVITY (16 message(s))
+2026-05-15 20:47:42  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 20:47:42  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 20:47:42  INFO          ← [2026-05-15 20:47 WIB]  Twibbonize CRM
+2026-05-15 20:47:42  INFO              "Twibbonize CRM <www.twibbonize.com>"
+2026-05-15 20:47:42  INFO          ← [2026-05-15 20:08 WIB]  Test - Andar Rahman
+2026-05-15 20:47:42  INFO              "*Bold* *Italic* *Underline* [image: images (17)-Picsart-Back"
+2026-05-15 20:47:42  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 20:47:42  INFO              "Andar Rahman *Test Bold* *Underline* *Italy* ahi <http://www"
+2026-05-15 20:47:42  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 20:47:42  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 20:47:42  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 20:47:42  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 20:47:42  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 20:47:42  INFO              "Terlampir"
+2026-05-15 20:47:42  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 20:47:42  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 20:47:42  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 20:47:42  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 20:47:42  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 20:47:42  INFO              "Multiple File"
+2026-05-15 20:47:42  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 20:47:42  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 20:47:42  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 20:47:42  INFO              "PDF"
+2026-05-15 20:47:42  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 20:47:42  INFO              "attachment"
+2026-05-15 20:47:42  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 20:47:42  INFO              "Attchment"
+2026-05-15 20:47:42  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 20:47:42  INFO              "Halo lagi sdsd"
+2026-05-15 20:47:42  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 20:47:42  INFO              "Test"
+2026-05-15 20:47:42  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 20:47:42  INFO              "asas"
+2026-05-15 20:47:42  INFO     
+============================================================
+2026-05-15 20:47:42  INFO     Summary  |  Contacts: 1  ·  Received: 5  ·  Sent: 11
+2026-05-15 20:47:42  INFO     ============================================================
+
+2026-05-15 20:50:21  INFO     ============================================================
+2026-05-15 20:50:21  INFO     Email check — 2026-05-15 20:50 WIB  (last 1d)
+2026-05-15 20:50:21  INFO     ============================================================
+2026-05-15 20:50:21  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:50:21  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 20:50:21  INFO        • andar.rahman21@gmail.com
+2026-05-15 20:50:21  INFO        • humas@perpusnas.go.id
+2026-05-15 20:50:21  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 20:50:21  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 20:50:21  INFO        • ybb.admn@gmail.com
+2026-05-15 20:50:21  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:50:21  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 20:50:23  INFO     
+📬 Scanning mailboxes…
+2026-05-15 20:50:24  INFO       INBOX: 30 message(s) since 14-May-2026
+2026-05-15 20:50:40  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 20:50:44  INFO        Fetching body for 6 inbound match(es)…
+2026-05-15 20:50:51  INFO        Fetching body for 11 outbound match(es)…
+2026-05-15 20:50:59  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_09-35-33_4af12ed9_report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:50:59  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_10-59-03_a70d3069_unnamed__3_.png "HTTP/2 200 OK"
+2026-05-15 20:50:59  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-08-42_06637e6b_1778665253280-report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:51:00  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-47-01_a70ac131_screencapture-localhost-3000-contacts-new-2026-05-11-00_57_37.pdf "HTTP/2 200 OK"
+2026-05-15 20:51:00  INFO        ⏭️  Skipped 11 outbound email(s) already in CRM threads.
+2026-05-15 20:51:00  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:51:00  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:51:00  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:51:01  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:51:01  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?select=id&contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00 "HTTP/2 200 OK"
+2026-05-15 20:51:01  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_messages "HTTP/2 201 Created"
+2026-05-15 20:51:01  INFO       ↪  Linked reply 'test' to thread 41b01c6c
+2026-05-15 20:51:01  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?id=eq.41b01c6c-6a57-4f15-ac06-7a26ee0215c2 "HTTP/2 200 OK"
+2026-05-15 20:51:01  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?id=eq.b74728f8-c370-4e0e-a5ca-85b6a58bb25f "HTTP/2 200 OK"
+2026-05-15 20:51:01  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:51:01  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T10%3A59%3A03%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:51:02  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:51:02  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A08%3A42%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:51:02  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:51:02  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A47%3A01%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:51:02  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-15 20:51:02  INFO        🔗  Linked 1 inbound reply(ies) to CRM threads.
+2026-05-15 20:51:02  INFO        💾 Saved — 6 inbound, 0 outbound  (new: 1, patched: 5).
+2026-05-15 20:51:02  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 20:51:02  INFO     📧  EMAIL ACTIVITY (17 message(s))
+2026-05-15 20:51:02  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 20:51:02  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 20:51:02  INFO          ← [2026-05-15 20:50 WIB]  Unread message
+2026-05-15 20:51:02  INFO              "Unread message"
+2026-05-15 20:51:02  INFO          ← [2026-05-15 20:47 WIB]  Twibbonize CRM
+2026-05-15 20:51:02  INFO              "Twibbonize CRM <www.twibbonize.com>"
+2026-05-15 20:51:02  INFO          ← [2026-05-15 20:08 WIB]  Test - Andar Rahman
+2026-05-15 20:51:02  INFO              "*Bold* *Italic* *Underline* [image: images (17)-Picsart-Back"
+2026-05-15 20:51:02  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 20:51:02  INFO              "Andar Rahman *Test Bold* *Underline* *Italy* ahi <http://www"
+2026-05-15 20:51:02  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 20:51:02  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 20:51:02  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 20:51:02  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 20:51:02  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 20:51:02  INFO              "Terlampir"
+2026-05-15 20:51:02  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 20:51:02  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 20:51:02  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 20:51:02  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 20:51:02  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 20:51:02  INFO              "Multiple File"
+2026-05-15 20:51:02  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 20:51:02  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 20:51:02  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 20:51:02  INFO              "PDF"
+2026-05-15 20:51:02  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 20:51:02  INFO              "attachment"
+2026-05-15 20:51:02  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 20:51:02  INFO              "Attchment"
+2026-05-15 20:51:02  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 20:51:02  INFO              "Halo lagi sdsd"
+2026-05-15 20:51:02  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 20:51:02  INFO              "Test"
+2026-05-15 20:51:02  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 20:51:02  INFO              "asas"
+2026-05-15 20:51:02  INFO     
+============================================================
+2026-05-15 20:51:02  INFO     Summary  |  Contacts: 1  ·  Received: 6  ·  Sent: 11
+2026-05-15 20:51:02  INFO     ============================================================
+
+2026-05-15 20:56:41  INFO     ============================================================
+2026-05-15 20:56:41  INFO     Email check — 2026-05-15 20:56 WIB  (last 1d)
+2026-05-15 20:56:41  INFO     ============================================================
+2026-05-15 20:56:42  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:56:42  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 20:56:42  INFO        • andar.rahman21@gmail.com
+2026-05-15 20:56:42  INFO        • humas@perpusnas.go.id
+2026-05-15 20:56:42  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 20:56:42  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 20:56:42  INFO        • ybb.admn@gmail.com
+2026-05-15 20:56:42  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:56:42  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 20:56:43  INFO     
+📬 Scanning mailboxes…
+2026-05-15 20:56:43  INFO       INBOX: 30 message(s) since 14-May-2026
+2026-05-15 20:56:54  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 20:56:57  INFO        Fetching body for 6 inbound match(es)…
+2026-05-15 20:56:59  INFO        Fetching body for 11 outbound match(es)…
+2026-05-15 20:57:03  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_09-35-33_515cd913_report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:57:03  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_10-59-03_6068fb19_unnamed__3_.png "HTTP/2 200 OK"
+2026-05-15 20:57:03  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-08-42_bb4930f7_1778665253280-report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:57:04  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-47-01_fc14fb83_screencapture-localhost-3000-contacts-new-2026-05-11-00_57_37.pdf "HTTP/2 200 OK"
+2026-05-15 20:57:04  INFO        ⏭️  Skipped 11 outbound email(s) already in CRM threads.
+2026-05-15 20:57:04  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 400 Bad Request"
+2026-05-15 20:57:04  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:57:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 400 Bad Request"
+2026-05-15 20:57:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:57:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 400 Bad Request"
+2026-05-15 20:57:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T10%3A59%3A03%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:57:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 400 Bad Request"
+2026-05-15 20:57:05  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A08%3A42%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:57:05  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 400 Bad Request"
+2026-05-15 20:57:06  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A47%3A01%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:57:06  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 400 Bad Request"
+2026-05-15 20:57:06  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A50%3A08%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:57:06  INFO        💾 Saved — 6 inbound, 0 outbound  (new: 0, patched: 6).
+2026-05-15 20:57:06  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 20:57:06  INFO     📧  EMAIL ACTIVITY (17 message(s))
+2026-05-15 20:57:06  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 20:57:06  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 20:57:06  INFO          ← [2026-05-15 20:50 WIB]  Unread message
+2026-05-15 20:57:06  INFO              "Unread message"
+2026-05-15 20:57:06  INFO          ← [2026-05-15 20:47 WIB]  Twibbonize CRM
+2026-05-15 20:57:06  INFO              "Twibbonize CRM <www.twibbonize.com>"
+2026-05-15 20:57:06  INFO          ← [2026-05-15 20:08 WIB]  Test - Andar Rahman
+2026-05-15 20:57:06  INFO              "*Bold* *Italic* *Underline* [image: images (17)-Picsart-Back"
+2026-05-15 20:57:06  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 20:57:06  INFO              "Andar Rahman *Test Bold* *Underline* *Italy* ahi <http://www"
+2026-05-15 20:57:06  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 20:57:06  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 20:57:06  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 20:57:06  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 20:57:06  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 20:57:06  INFO              "Terlampir"
+2026-05-15 20:57:06  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 20:57:06  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 20:57:06  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 20:57:06  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 20:57:06  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 20:57:06  INFO              "Multiple File"
+2026-05-15 20:57:06  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 20:57:06  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 20:57:06  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 20:57:06  INFO              "PDF"
+2026-05-15 20:57:06  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 20:57:06  INFO              "attachment"
+2026-05-15 20:57:06  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 20:57:06  INFO              "Attchment"
+2026-05-15 20:57:06  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 20:57:06  INFO              "Halo lagi sdsd"
+2026-05-15 20:57:06  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 20:57:06  INFO              "Test"
+2026-05-15 20:57:06  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 20:57:06  INFO              "asas"
+2026-05-15 20:57:06  INFO     
+============================================================
+2026-05-15 20:57:06  INFO     Summary  |  Contacts: 1  ·  Received: 6  ·  Sent: 11
+2026-05-15 20:57:06  INFO     ============================================================
+
+2026-05-15 20:58:08  INFO     ============================================================
+2026-05-15 20:58:08  INFO     Email check — 2026-05-15 20:58 WIB  (last 1d)
+2026-05-15 20:58:08  INFO     ============================================================
+2026-05-15 20:58:09  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:58:09  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 20:58:09  INFO        • andar.rahman21@gmail.com
+2026-05-15 20:58:09  INFO        • humas@perpusnas.go.id
+2026-05-15 20:58:09  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 20:58:09  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 20:58:09  INFO        • ybb.admn@gmail.com
+2026-05-15 20:58:09  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 20:58:09  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 20:58:10  INFO     
+📬 Scanning mailboxes…
+2026-05-15 20:58:10  INFO       INBOX: 30 message(s) since 14-May-2026
+2026-05-15 20:58:19  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 20:58:23  INFO        Fetching body for 6 inbound match(es)…
+2026-05-15 20:58:25  INFO        Fetching body for 11 outbound match(es)…
+2026-05-15 20:58:30  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_09-35-33_5e0c21cb_report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:58:30  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_10-59-03_cc0a9db0_unnamed__3_.png "HTTP/2 200 OK"
+2026-05-15 20:58:30  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-08-42_69bd0147_1778665253280-report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 20:58:30  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-47-01_e271f574_screencapture-localhost-3000-contacts-new-2026-05-11-00_57_37.pdf "HTTP/2 200 OK"
+2026-05-15 20:58:30  INFO        ⏭️  Skipped 11 outbound email(s) already in CRM threads.
+2026-05-15 20:58:31  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:58:31  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:58:31  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:58:31  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:58:31  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:58:31  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T10%3A59%3A03%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:58:31  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:58:31  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A08%3A42%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:58:31  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:58:31  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A47%3A01%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:58:32  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 20:58:32  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A50%3A08%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 20:58:32  INFO        💾 Saved — 6 inbound, 0 outbound  (new: 0, patched: 6).
+2026-05-15 20:58:32  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 20:58:32  INFO     📧  EMAIL ACTIVITY (17 message(s))
+2026-05-15 20:58:32  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 20:58:32  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 20:58:32  INFO          ← [2026-05-15 20:50 WIB]  Unread message
+2026-05-15 20:58:32  INFO              "Unread message"
+2026-05-15 20:58:32  INFO          ← [2026-05-15 20:47 WIB]  Twibbonize CRM
+2026-05-15 20:58:32  INFO              "Twibbonize CRM <www.twibbonize.com>"
+2026-05-15 20:58:32  INFO          ← [2026-05-15 20:08 WIB]  Test - Andar Rahman
+2026-05-15 20:58:32  INFO              "*Bold* *Italic* *Underline* [image: images (17)-Picsart-Back"
+2026-05-15 20:58:32  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 20:58:32  INFO              "Andar Rahman *Test Bold* *Underline* *Italy* ahi <http://www"
+2026-05-15 20:58:32  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 20:58:32  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 20:58:32  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 20:58:32  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 20:58:32  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 20:58:32  INFO              "Terlampir"
+2026-05-15 20:58:32  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 20:58:32  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 20:58:32  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 20:58:32  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 20:58:32  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 20:58:32  INFO              "Multiple File"
+2026-05-15 20:58:32  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 20:58:32  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 20:58:32  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 20:58:32  INFO              "PDF"
+2026-05-15 20:58:32  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 20:58:32  INFO              "attachment"
+2026-05-15 20:58:32  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 20:58:32  INFO              "Attchment"
+2026-05-15 20:58:32  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 20:58:32  INFO              "Halo lagi sdsd"
+2026-05-15 20:58:32  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 20:58:32  INFO              "Test"
+2026-05-15 20:58:32  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 20:58:32  INFO              "asas"
+2026-05-15 20:58:32  INFO     
+============================================================
+2026-05-15 20:58:32  INFO     Summary  |  Contacts: 1  ·  Received: 6  ·  Sent: 11
+2026-05-15 20:58:32  INFO     ============================================================
+
+2026-05-15 21:13:21  INFO     ============================================================
+2026-05-15 21:13:21  INFO     Email check — 2026-05-15 21:13 WIB  (last 1d)
+2026-05-15 21:13:21  INFO     ============================================================
+2026-05-15 21:13:22  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contacts?select=id%2Cname%2Cemail%2Ctype%2Cworkspace_id&deleted_at=is.null&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 21:13:22  INFO     
+👥 CRM contacts with email: 5
+2026-05-15 21:13:22  INFO        • andar.rahman21@gmail.com
+2026-05-15 21:13:22  INFO        • humas@perpusnas.go.id
+2026-05-15 21:13:22  INFO        • wakandafestival.organisers@gmail.com
+2026-05-15 21:13:22  INFO        • yassertamayopuno23@gmail.com
+2026-05-15 21:13:22  INFO        • ybb.admn@gmail.com
+2026-05-15 21:13:22  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Ccontact_id%2Csubject&workspace_id=eq.00000000-0000-0000-0000-000000000001 "HTTP/2 200 OK"
+2026-05-15 21:13:22  INFO        📋 CRM-tracked threads (dedup + reply-link guard): 11
+2026-05-15 21:13:23  INFO     
+📬 Scanning mailboxes…
+2026-05-15 21:13:24  INFO       INBOX: 32 message(s) since 14-May-2026
+2026-05-15 21:13:34  INFO       "[Gmail]/Sent Mail": 14 message(s) since 14-May-2026
+2026-05-15 21:13:39  INFO        Fetching body for 7 inbound match(es)…
+2026-05-15 21:13:43  INFO        Fetching body for 11 outbound match(es)…
+2026-05-15 21:13:50  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_09-35-33_b7b386c3_report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 21:13:50  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_10-59-03_45de9cfe_unnamed__3_.png "HTTP/2 200 OK"
+2026-05-15 21:13:50  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-08-42_190caf19_1778665253280-report__12_.xlsx "HTTP/2 200 OK"
+2026-05-15 21:13:50  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/storage/v1/object/email-images/attachments/00000000-0000-0000-0000-000000000001/0caf2ebb-cd26-4180-83c3-b634ab53e1c9/2026-05-15_20-47-01_2c2a526d_screencapture-localhost-3000-contacts-new-2026-05-11-00_57_37.pdf "HTTP/2 200 OK"
+2026-05-15 21:13:50  INFO        ⏭️  Skipped 11 outbound email(s) already in CRM threads.
+2026-05-15 21:13:51  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 21:13:51  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A35%3A33%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 21:13:51  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 21:13:51  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T09%3A39%3A10%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 21:13:51  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 21:13:52  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T10%3A59%3A03%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 21:13:52  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 21:13:52  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A08%3A42%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 21:13:52  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 21:13:52  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A47%3A01%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 21:13:52  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 409 Conflict"
+2026-05-15 21:13:52  INFO     HTTP Request: PATCH https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs?contact_id=eq.0caf2ebb-cd26-4180-83c3-b634ab53e1c9&from_email=eq.andar.rahman21%40gmail.com&received_at=eq.2026-05-15T20%3A50%3A08%2B07%3A00&body_html=is.null "HTTP/2 200 OK"
+2026-05-15 21:13:52  INFO     HTTP Request: POST https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/contact_email_logs "HTTP/2 201 Created"
+2026-05-15 21:13:52  INFO        💾 Saved — 7 inbound, 0 outbound  (new: 1, patched: 6).
+2026-05-15 21:13:52  INFO     
+────────────────────────────────────────────────────────────
+2026-05-15 21:13:52  INFO     📧  EMAIL ACTIVITY (18 message(s))
+2026-05-15 21:13:52  INFO     ────────────────────────────────────────────────────────────
+2026-05-15 21:13:52  INFO     
+  👤 Muhammad Andar Rahman <andar.rahman21@gmail.com>
+2026-05-15 21:13:52  INFO          ← [2026-05-15 21:12 WIB]  email baru 15 Mei
+2026-05-15 21:13:52  INFO              "email baru 15 Mei"
+2026-05-15 21:13:52  INFO          ← [2026-05-15 20:50 WIB]  Unread message
+2026-05-15 21:13:52  INFO              "Unread message"
+2026-05-15 21:13:52  INFO          ← [2026-05-15 20:47 WIB]  Twibbonize CRM
+2026-05-15 21:13:52  INFO              "Twibbonize CRM <www.twibbonize.com>"
+2026-05-15 21:13:52  INFO          ← [2026-05-15 20:08 WIB]  Test - Andar Rahman
+2026-05-15 21:13:52  INFO              "*Bold* *Italic* *Underline* [image: images (17)-Picsart-Back"
+2026-05-15 21:13:52  INFO          ← [2026-05-15 10:59 WIB]  Uji Coba Email
+2026-05-15 21:13:52  INFO              "Andar Rahman *Test Bold* *Underline* *Italy* ahi <http://www"
+2026-05-15 21:13:52  INFO          ← [2026-05-15 09:39 WIB]  test
+2026-05-15 21:13:52  INFO              "-- Fresh Graduate - Industrial Engineering 2013 TELKOM UNIVE"
+2026-05-15 21:13:52  INFO          ← [2026-05-15 09:35 WIB]  Test Terlampir Dokumen
+2026-05-15 21:13:52  INFO              "*Terlampir a* *DDDD* *sdddfdf* *Andr <www.twibbonize.com>* -"
+2026-05-15 21:13:52  INFO          → [2026-05-15 09:32 WIB]  new attach
+2026-05-15 21:13:52  INFO              "Terlampir"
+2026-05-15 21:13:52  INFO          → [2026-05-15 08:50 WIB]  Fwd: Re: 2025 DHVSU Women's Month Campaign — a quick idea from Twibbonize 💜
+2026-05-15 21:13:52  INFO              "Hi, It was great meeting you as well! I have already finishe"
+2026-05-15 21:13:52  INFO          → [2026-05-15 08:49 WIB]  Re: Multiple File
+2026-05-15 21:13:52  INFO              "Hi Muhammad Andar Rahman, Multiple File"
+2026-05-15 21:13:52  INFO          → [2026-05-15 08:49 WIB]  Multiple File
+2026-05-15 21:13:52  INFO              "Multiple File"
+2026-05-15 21:13:52  INFO          → [2026-05-15 08:48 WIB]  Andar
+2026-05-15 21:13:52  INFO              "Andar Rahman Terlampir dokumen"
+2026-05-15 21:13:52  INFO          → [2026-05-15 07:33 WIB]  Andar Rahman
+2026-05-15 21:13:52  INFO              "PDF"
+2026-05-15 21:13:52  INFO          → [2026-05-15 07:32 WIB]  attachment
+2026-05-15 21:13:52  INFO              "attachment"
+2026-05-15 21:13:52  INFO          → [2026-05-15 07:31 WIB]  Test
+2026-05-15 21:13:52  INFO              "Attchment"
+2026-05-15 21:13:52  INFO          → [2026-05-15 07:26 WIB]  Test
+2026-05-15 21:13:52  INFO              "Halo lagi sdsd"
+2026-05-15 21:13:52  INFO          → [2026-05-15 07:21 WIB]  Halo
+2026-05-15 21:13:52  INFO              "Test"
+2026-05-15 21:13:52  INFO          → [2026-05-15 07:16 WIB]  Test
+2026-05-15 21:13:52  INFO              "asas"
+2026-05-15 21:13:52  INFO     
+============================================================
+2026-05-15 21:13:52  INFO     Summary  |  Contacts: 1  ·  Received: 7  ·  Sent: 11
+2026-05-15 21:13:52  INFO     ============================================================
+

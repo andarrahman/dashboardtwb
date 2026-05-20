@@ -1,0 +1,1 @@
+ALTER TABLE marketing_templates ADD COLUMN IF NOT EXISTS email_width INTEGER DEFAULT 600;

@@ -1,0 +1,13 @@
+2026-05-14 15:04:30  INFO     ============================================================
+2026-05-14 15:04:30  INFO     Scheduled email check — 2026-05-14 15:04:30
+2026-05-14 15:04:30  INFO     ============================================================
+2026-05-14 15:04:31  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Cworkspace_id%2Csubject%2Cto_email%2Ccc_emails%2Cbcc_emails%2Cscheduled_at%2Ccontact_id&workspace_id=eq.00000000-0000-0000-0000-000000000001&status=eq.scheduled&scheduled_at=lte.2026-05-14T08%3A04%3A30.356406%2B00%3A00 "HTTP/2 400 Bad Request"
+2026-05-14 15:04:31  ERROR    Failed to fetch due threads: {'message': 'column email_threads.to_email does not exist', 'code': '42703', 'hint': None, 'details': None}
+2026-05-14 15:04:31  INFO     ✓ No scheduled emails due right now.
+2026-05-14 15:04:31  INFO     
+2026-05-14 15:04:58  INFO     ============================================================
+2026-05-14 15:04:58  INFO     Scheduled email check — 2026-05-14 15:04:58
+2026-05-14 15:04:58  INFO     ============================================================
+2026-05-14 15:04:58  INFO     HTTP Request: GET https://dgdzwvfozxybmcwjguoe.supabase.co/rest/v1/email_threads?select=id%2Cworkspace_id%2Csubject%2Cscheduled_at%2Ccontact_id&workspace_id=eq.00000000-0000-0000-0000-000000000001&status=eq.scheduled&scheduled_at=lte.2026-05-14T08%3A04%3A58.206596%2B00%3A00 "HTTP/2 200 OK"
+2026-05-14 15:04:58  INFO     ✓ No scheduled emails due right now.
+2026-05-14 15:04:58  INFO     
