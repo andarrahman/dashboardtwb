@@ -36,7 +36,7 @@ export function useWorkspace(): WorkspaceState {
       } = await supabase.auth.getUser()
 
       if (!user) {
-        setState({ workspace: null, workspaceId: null, role: null, loading: false, error: 'Not authenticated' })
+        setState({ workspace: null, workspaceId: null, role: null, features: [], loading: false, error: 'Not authenticated' })
         return
       }
 
