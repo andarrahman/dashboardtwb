@@ -576,7 +576,7 @@ function ProjectCard({
       }}
     >
       {/* Top row: field + status + weekly update chip + 3-dot */}
-      <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 6, minWidth: 0 }}>
         <DeptBadge dept={project.department} />
         <StatusBadge status={project.status} />
         {(project as any).needs_weekly_update && (
@@ -594,6 +594,7 @@ function ProjectCard({
             color: "#B45309",
             whiteSpace: "nowrap",
             fontFamily: manrope,
+            flexShrink: 0,
           }}>
             <svg width="10" height="10" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
               <path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM8 5v3.5M8 10.5v.5" stroke="#D97706" strokeWidth="1.6" strokeLinecap="round"/>
@@ -601,8 +602,8 @@ function ProjectCard({
             Need weekly update
           </span>
         )}
-        <div style={{ flex: 1 }} />
-        <div onClick={(e) => e.stopPropagation()}>
+        <div style={{ flex: 1, minWidth: 0 }} />
+        <div onClick={(e) => e.stopPropagation()} style={{ flexShrink: 0 }}>
           <RowMenu project={project} onEdit={onEdit} onDelete={onDelete} />
         </div>
       </div>
@@ -1815,11 +1816,13 @@ export default function ProjectsPage() {
         display: "flex",
         flexDirection: "column",
         paddingBlock: 32,
-        paddingInline: 40,
+        paddingInline: "clamp(20px, 3vw, 40px)",
         gap: 24,
         background: "#F8FAFB",
         minHeight: "100vh",
         fontFamily: manrope,
+        width: "100%",
+        boxSizing: "border-box",
       }}
     >
       {/* ── Page header ─────────────────────────────────────────────────────── */}
@@ -2202,6 +2205,7 @@ export default function ProjectsPage() {
           justifyContent: "space-between",
           gap: 12,
           flexWrap: "wrap",
+          minWidth: 0,
         }}
       >
         {/* Status tabs */}
@@ -2312,7 +2316,7 @@ export default function ProjectsPage() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(3, 1fr)",
+              gridTemplateColumns: "repeat(auto-fill, minmax(min(340px, 100%), 1fr))",
               gap: 16,
             }}
           >
@@ -2467,7 +2471,7 @@ export default function ProjectsPage() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
+            gridTemplateColumns: "repeat(auto-fill, minmax(min(340px, 100%), 1fr))",
             gap: 16,
           }}
         >

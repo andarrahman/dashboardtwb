@@ -24,7 +24,7 @@ export default async function AppLayout({
     <ToastProvider>
       <div className="flex min-h-screen bg-background">
         <Sidebar />
-        <div className="flex-1 min-w-0">
+        <div className="flex-1 min-w-0 overflow-x-hidden">
           <ErrorBoundary>{children}</ErrorBoundary>
         </div>
       </div>
