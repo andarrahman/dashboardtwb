@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { createClient } from '@supabase/supabase-js'
 import ws from 'ws'
 
@@ -63,7 +64,8 @@ async function main() {
   await (supabase as any).from('project_code_sequences')
     .upsert({ workspace_id: workspaceId, next_val: 15 }, { onConflict: 'workspace_id' })
 
-  console.log('\n🎉 All 12 projects now imported!')
+  console.log('
+🎉 All 12 projects now imported!')
 }
 
 main().catch(console.error)

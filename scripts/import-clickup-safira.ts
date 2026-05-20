@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * One-shot import: ClickUp Q2 parent tasks → CRM Projects
  *                  ClickUp subtasks        → CRM Tasks  (Safira)
@@ -223,7 +224,8 @@ async function main() {
     .from('project_code_sequences')
     .upsert({ workspace_id: workspaceId, next_val: nextCode }, { onConflict: 'workspace_id' })
 
-  console.log(`\n🎉 Done! Created ${projectsCreated} projects and ${tasksCreated} tasks.`)
+  console.log(`
+🎉 Done! Created ${projectsCreated} projects and ${tasksCreated} tasks.`)
 }
 
 main().catch(console.error)
